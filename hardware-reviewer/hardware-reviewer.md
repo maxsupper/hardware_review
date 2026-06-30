@@ -1,15 +1,15 @@
 ﻿# 硬件原理图设计验证专家 — Agent 规则 (v4.0)
 
-## §0 快速导航
-| § | 章节 | 核心内容 | HW_REVIEW | HW_PREP | HW_ANALYZE | HW_WRITE | HW_AUDITOR |
-|----|------|---------|:---:|:---:|:---:|:---:|:---:|
-| §1 | 角色定义与架构 | 6 Agent 集中块 + Gate 骨架 | ? | ? | ? | ? | ? |
-| §2 | 审核流程 | 端到端工作流 + 13 阻断点 | ? | — | — | — | — |
-| §4 | 数据契约 | 交接表 + Schema + 编号 | ? | ? | — | ? | — |
-| §5 | 委派规范 | Prompt模板 + 角色表 | ? | — | — | — | — |
-| §6 | 交付与质量 | Q1-Q9 + R-Gate + G6 | ? | — | — | ? | ? |
+## §0 快速导航 (人类阅读)
+| 章节 | 核心内容 | 主要适用 |
+|------|---------|---------|
+| §1 | 6 Agent 定义 + Gate 骨架 | 全员 |
+| §2 | 端到端流程 + 13 阻断点 | HW_REVIEW |
+| §4 | 数据契约 + Schema + 编号 | HW_REVIEW / HW_PREP / HW_WRITE |
+| §5 | Prompt 模板 + 角色表 | HW_REVIEW |
+| §6 | Q1-Q9 + R-Gate + G6 | HW_REVIEW / HW_WRITE / HW_AUDITOR |
 
----
+
 
 ## §1 角色定义与架构
 
@@ -22,14 +22,14 @@
 硬件原理图设计验证规则文档集合，覆盖芯片引脚复用配置、VCCIO 电源域电平匹配、信号完整性、外设标准电路完整性、上电时序及动态电路行为的自动化/人工检查方法。适用于 AI Agent 与人工审查员协同执行原理图审查。
 
 ### 1.2 多 Agent 委派架构
-| Agent | 模型 | 阶段 | 角色 | 职责 |
-|-------|------|------|------|------|
-| hardware_review | deepseek-v4-pro | 全流程 | 编排器（裁判） | 调度、验证 Gate JSON、放行/阻断 |
-| hw_search | deepseek-v4-flash | G0 | 运动员 | 手册检索、IC 数据手册匹配、在线下载 |
-| hw_prep | deepseek-v4-flash | Wave 1 | 运动员 | EDN 解析、IC 提取、by_ic 产出 |
-| hw_analyze | deepseek-v4-pro | Wave 2 | 运动员 | 引脚核对、VCCIO、DDR、外设、连接器 |
-| hw_auditor | deepseek-v4-pro | FINAL | 运动员 | G0-G7 门禁自审、证据链一致性 |
-| hw_write | deepseek-v4-flash | FINAL | 运动员 | 从摘要 JSON 合成 .md 报告 |
+| Agent | 阶段 | 角色 | 职责 |
+|-------|------|------|------|
+| hardware_review | 全流程 | 编排器（裁判） | 调度、验证 Gate JSON、放行/阻断 |
+| hw_search | G0 | 运动员 | 手册检索、IC 数据手册匹配、在线下载 |
+| hw_prep | Wave 1 | 运动员 | EDN 解析、IC 提取、by_ic 产出 |
+| hw_analyze | Wave 2 | 运动员 | 引脚核对、VCCIO、DDR、外设、连接器 |
+| hw_auditor | FINAL | 运动员 | G0-G7 门禁自审、证据链一致性 |
+| hw_write | FINAL | 运动员 | 从摘要 JSON 合成 .md 报告 |
 
 ### 1.3 hardware_review — 流程编排器（裁判）
 
@@ -140,7 +140,7 @@
 - ? **强制溯源到驱动端**：电压轨追到 SW 引脚，信号追到 TX/输出引脚
 - ? **跨元件双向验证**：通过两端元件追踪时分别提取两端网络名逐字确认
 - ? **VCCIO _J 后缀陷阱**：VCCIO2/VCCIO3 共用 _J 后缀，分别追踪各自供电网络
-- ? **芯片专属规则**：识别 SoC 型号后加载对应规则文件：RK3576 → platform/RK3576/hardware_check.md + platform/RK3576/pinout.md；RK3588 → platform/RK3588/hardware_check.md + platform/RK3588/pinout.md；RV1126B → platform/RV1126B/hardware_check.md + platform/RV1126B/pinout.md；E2000 → platform/E2000/数据手册.md。引脚电平以对应 *_pinout.md 官方表为准
+- ? **芯片专属规则**：识别 SoC 型号后加载对应规则文件：RK3576 → platform/RK3576/hardware_check.md + platform/RK3576/pinout.json；RK3588 → platform/RK3588/hardware_check.md + platform/RK3588/pinout.json；RV1126B → platform/RV1126B/hardware_check.md + platform/RV1126B/pinout.json；E2000 → platform/E2000/数据手册.md。引脚电平以对应 *_pinout.json 官方表为准
 
 
 **MUST NOT DO**：
@@ -189,9 +189,10 @@
 **MUST DO**：
 - ? 全文简体中文（EDN net 名/IC 型号/引脚名/手册路径除外）
 - ? 全量输出：ALL 外设类型/ALL 连接器全部引脚/ALL CRITICAL/WARNING
-- ? 连接器完整 8 列逐引脚表，禁止截断
+- ? 连接器完整 8 列逐引脚表，禁止截断，禁止概括
 - ? 漏读兜底：摘要缺失 → 回退读完整 evidence JSON
 - ? **五级判定体系**：报告中所有结论使用 ??CRITICAL / ??WARNING / ??OK / ??INFERRED / ?UNVERIFIED
+- ? **统一读取路径**：只读 summary JSON 的 `findings[]`（结论列表）、`tables[]`（表格数据）、`narrative{}`（描述文本）三个顶层字段，禁止猜测/遍历/探索其他字段。hw_analyze 未按 §4.3 格式输出 → 拒绝消费，退回 G2.x 门禁
 
 **MUST NOT DO**：
 - ?? 禁止读 EDN
@@ -208,8 +209,8 @@ Step -2 Clean-room → Step -1 加载 learn/ → Step 0a 人机交互
 → G6 闭环 → 自学习回写 → 会话结束
 
 ? 批次切分点（todo 边界，不可被 TODO CONTINUATION 跨越）：
-  ① G0 完成后 → 等待 G0.5 用户确认  ② Wave1+Gate1 完成后 → 等待 Gate1 验证
-  ③ Wave2+G2.x 完成后 → 等待 G2.x 验证  ④ Wave FINAL+G6 完成后 → 结束
+  ① G0 完成后 → 等待 G0.5 用户确认  ② Wave1 结束之后才能开始G0，G0要从提供的BOM中和Wave1解析的结果中获取所有IC信息 ③ Wave1+Gate1 完成后 → 等待 Gate1 验证
+  ④  Wave2+G2.x 完成后 → 等待 G2.x 验证  ⑤Wave FINAL+G6 完成后 → 结束
 ```
 
 ---
@@ -435,6 +436,7 @@ Step -1 加载 learn/ → learn/knowledge.md + ic_index.md
 | 7 | evidence JSON schema 不完整 | 任一 evidence JSON 缺失 `schema_version/kind/status/coverage/findings` | `g2x_validate.py` 检查所有 evidence JSON → 全部 PASS | → 修复缺失字段后必须重跑 g2x_validate.py 获得 PASS。禁止编排器自行补全字段后跳过 Gate 重跑直接进入 Wave FINAL。 |
 | 8 | 连接器 Voltage/Domain 填充率不足 | 任一连接器 evidence Voltage 填充率 < 80% 或 Domain 填充率 < 80% | `g2x_validate.py` 填充率检查 → Voltage ≥ 80% AND Domain ≥ 80% | → 退回对应连接器 hw_analyze 重跑，prompt 含失败指标数值 |
 | 13 | 外设接口覆盖不匹配 | prep 发现的接口类型 ≠ evidence 覆盖的接口类型 | `g2x_validate.py` 接口覆盖检查 → prep 接口集合 == evidence 接口集合 | → 退回缺失接口类型的 hw_analyze 重跑 |
+| 14 | summary JSON schema 不合规 | 任一 `*_summary.json` 缺失顶层 `findings` 数组、或 `checks_count` 与 `findings` 长度不匹配、或 `findings[].status` 含未知枚举值 | `g2x_validate.py` 检查所有 summary JSON → `findings` 存在且 `status` 均为 OK/WARNING/CRITICAL/INFERRED/UNVERIFIED | → 退回对应 hw_analyze 重跑。**禁止编排器自行修正字段** |
 
 > **格式说明**：Block #7, #8, #13 使用 Bash 命令格式（`g2x_validate.py` 确定性脚本验证）。
 
@@ -787,6 +789,12 @@ G6 闭环自审通过 → Remove-Item -Recurse -Force ".sisyphus/temp/"
 - **`tables` 字段必须覆盖报告格式规范中该章节的所有预期表格**
 - **`narrative` 必须覆盖所有分析描述内容**
 - 报告生成和 §10 汇总**只读摘要文件**，不读原始 evidence JSON
+
+**强制声明**：
+- ⛔ **hw_analyze 必须产出上述 §4.3 固定格式**，禁止使用自定义 schema（如嵌套接口对象、平铺独立字段等）
+- ⛔ **hw_write 只读 `findings[]`/`tables[]`/`narrative{}` 三个顶层字段**，禁止自行猜测、遍历、探索其他字段
+- ⛔ **G2.x 门禁阻断**：任一 `*_summary.json` 缺失顶层 `findings[]` 字段（或 findings 数 < checks_count） → G2.x status = FAIL
+- 恢复动作：退回对应 hw_analyze 重跑，prompt 中要求"严格按照 §4.3 摘要固定格式输出，禁止自定义 schema"
 
 **漏读兜底规则**：
 - hw_write 读取摘要前，先检查摘要是否存在。若缺失，不得静默跳过——必须回退读取完整 `_evidence.json`，提取 `findings`/`tables`/`narrative`/`power_domain_map`/`sequence_verification` 等字段

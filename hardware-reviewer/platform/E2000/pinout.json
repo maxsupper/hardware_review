@@ -1,0 +1,1662 @@
+{
+  "meta": {
+    "platform": "E2000Q",
+    "total_entries": 163
+  },
+  "pins": {
+    "__AA5": {
+      "ball": "AA5",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE0_TXP",
+        "f1": "USB3_P0_TXP"
+      },
+      "pull_config": ""
+    },
+    "__AA7": {
+      "ball": "AA7",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE0_TXN",
+        "f1": "USB3_P0_TXN"
+      },
+      "pull_config": ""
+    },
+    "__W1": {
+      "ball": "W1",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE0_RXP",
+        "f1": "USB3_P0_RXP"
+      },
+      "pull_config": ""
+    },
+    "__W3": {
+      "ball": "W3",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE0_RXN",
+        "f1": "USB3_P0_RXN"
+      },
+      "pull_config": ""
+    },
+    "__AE5": {
+      "ball": "AE5",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE1_TXP",
+        "f1": "USB3_P1_TXP",
+        "f2": "SATA0_TXP"
+      },
+      "pull_config": ""
+    },
+    "__AE7": {
+      "ball": "AE7",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE1_TXN",
+        "f1": "USB3_P1_TXN",
+        "f2": "SATA0_TXN"
+      },
+      "pull_config": ""
+    },
+    "__AC1": {
+      "ball": "AC1",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE1_RXP",
+        "f1": "USB3_P1_RXP",
+        "f2": "SATA0_RXP"
+      },
+      "pull_config": ""
+    },
+    "__AC3": {
+      "ball": "AC3",
+      "gpio": "",
+      "functions": {
+        "f0": "PCIE1_RXN",
+        "f1": "USB3_P1_RXN",
+        "f2": "SATA0_RXN"
+      },
+      "pull_config": ""
+    },
+    "__G9": {
+      "ball": "G9",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII0_TXP",
+        "f1": "USXGMII0_TXP"
+      },
+      "pull_config": ""
+    },
+    "__E9": {
+      "ball": "E9",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII0_TXN",
+        "f1": "USXGMII0_TXN"
+      },
+      "pull_config": ""
+    },
+    "__C11": {
+      "ball": "C11",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII0_RXP",
+        "f1": "USXGMII0_RXP"
+      },
+      "pull_config": ""
+    },
+    "__A11": {
+      "ball": "A11",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII0_RXN",
+        "f1": "USXGMII0_RXN"
+      },
+      "pull_config": ""
+    },
+    "__G13": {
+      "ball": "G13",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII1_TXP",
+        "f1": "USXGMII1_TXP",
+        "f2": "SATA1_TXP"
+      },
+      "pull_config": ""
+    },
+    "__E13": {
+      "ball": "E13",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII1_TXN",
+        "f1": "USXGMII1_TXN",
+        "f2": "SATA1_TXN"
+      },
+      "pull_config": ""
+    },
+    "__C15": {
+      "ball": "C15",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII1_RXP",
+        "f1": "USXGMII1_RXP",
+        "f2": "SATA1_RXP"
+      },
+      "pull_config": ""
+    },
+    "__A15": {
+      "ball": "A15",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII1_RXN",
+        "f1": "USXGMII1_RXN",
+        "f2": "SATA1_RXN"
+      },
+      "pull_config": ""
+    },
+    "__G17": {
+      "ball": "G17",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII2_TXP",
+        "f1": "DP0_L0_P"
+      },
+      "pull_config": ""
+    },
+    "__E17": {
+      "ball": "E17",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII2_TXN",
+        "f1": "DP0_L0_N"
+      },
+      "pull_config": ""
+    },
+    "__G25": {
+      "ball": "G25",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII3_TXP",
+        "f1": "DP1_L0_P"
+      },
+      "pull_config": ""
+    },
+    "__E25": {
+      "ball": "E25",
+      "gpio": "",
+      "functions": {
+        "f0": "SGMII3_TXN",
+        "f1": "DP1_L0_N",
+        "f2": "2.1.4.2 低速IO PAD 类型",
+        "f3": "如图为低速IO PAD 的示意图，其中包括双向三态、16 级驱动强度可调，带有施密",
+        "f4": "特触发器和上下拉的IO pad。",
+        "f5": "图2-1",
+        "f6": "低速IO PAD 示意图"
+      },
+      "pull_config": ""
+    },
+    "__AU53": {
+      "ball": "AU53",
+      "gpio": "",
+      "functions": {
+        "f0": "CLK_REF_50M",
+        "f7": "—"
+      },
+      "pull_config": ""
+    },
+    "__AU49": {
+      "ball": "AU49",
+      "gpio": "",
+      "functions": {
+        "f0": "CPU_POR_N"
+      },
+      "pull_config": "UP"
+    },
+    "GPIO0_0": {
+      "ball": "AN59",
+      "gpio": "GPIO0_0",
+      "functions": {
+        "f5": "GPIO0_0"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "__AR55": {
+      "ball": "AR55",
+      "gpio": "",
+      "functions": {
+        "f0": "QSPI_CSN0"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__AJ55": {
+      "ball": "AJ55",
+      "gpio": "",
+      "functions": {
+        "f0": "QSPI_SCK"
+      },
+      "pull_config": "SEL"
+    },
+    "__AL55": {
+      "ball": "AL55",
+      "gpio": "",
+      "functions": {
+        "f0": "QSPI_SO_IO0"
+      },
+      "pull_config": "SEL"
+    },
+    "__AL53": {
+      "ball": "AL53",
+      "gpio": "",
+      "functions": {
+        "f0": "QSPI_SI_IO1"
+      },
+      "pull_config": "SEL"
+    },
+    "__AN51": {
+      "ball": "AN51",
+      "gpio": "",
+      "functions": {
+        "f0": "QSPI_WP_IO2"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__AR51": {
+      "ball": "AR51",
+      "gpio": "",
+      "functions": {
+        "f0": "QSPI_HOLD_IO3"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO0_7": {
+      "ball": "BA57",
+      "gpio": "GPIO0_7",
+      "functions": {
+        "f0": "SE_CFG0",
+        "f5": "GPIO0_7"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_8": {
+      "ball": "BA59",
+      "gpio": "GPIO0_8",
+      "functions": {
+        "f0": "SE_CFG1",
+        "f5": "GPIO0_8"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_9": {
+      "ball": "AW57",
+      "gpio": "GPIO0_9",
+      "functions": {
+        "f0": "SE_CFG2",
+        "f5": "GPIO0_9"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_10": {
+      "ball": "AW59",
+      "gpio": "GPIO0_10",
+      "functions": {
+        "f0": "SE_CFG3",
+        "f5": "GPIO0_10"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_11": {
+      "ball": "AU55",
+      "gpio": "GPIO0_11",
+      "functions": {
+        "f0": "SE_CFG4",
+        "f5": "GPIO0_11"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_12": {
+      "ball": "AN57",
+      "gpio": "GPIO0_12",
+      "functions": {
+        "f1": "TACH0",
+        "f5": "GPIO0_12"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO0_13": {
+      "ball": "AL59",
+      "gpio": "GPIO0_13",
+      "functions": {
+        "f1": "PWM0",
+        "f5": "GPIO0_13"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO0_14": {
+      "ball": "AJ59",
+      "gpio": "GPIO0_14",
+      "functions": {
+        "f1": "TACH1",
+        "f5": "GPIO0_14"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO0_15": {
+      "ball": "AJ57",
+      "gpio": "GPIO0_15",
+      "functions": {
+        "f1": "PWM1",
+        "f5": "GPIO0_15"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO1_0": {
+      "ball": "AG59",
+      "gpio": "GPIO1_0",
+      "functions": {
+        "f1": "TACH2",
+        "f5": "GPIO1_0"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO1_1": {
+      "ball": "AG57",
+      "gpio": "GPIO1_1",
+      "functions": {
+        "f1": "PWM2",
+        "f5": "GPIO1_1"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO1_2": {
+      "ball": "AE59",
+      "gpio": "GPIO1_2",
+      "functions": {
+        "f1": "TACH3",
+        "f2": "PCIE0_PRSNT",
+        "f5": "GPIO1_2"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO1_3": {
+      "ball": "AC59",
+      "gpio": "GPIO1_3",
+      "functions": {
+        "f1": "PWM3",
+        "f5": "GPIO1_3"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO1_4": {
+      "ball": "AC57",
+      "gpio": "GPIO1_4",
+      "functions": {
+        "f0": "WAKEUP_N",
+        "f5": "GPIO1_4"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO1_5": {
+      "ball": "AR49",
+      "gpio": "GPIO1_5",
+      "functions": {
+        "f0": "QSPI_CSN1",
+        "f5": "GPIO1_5"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO1_6": {
+      "ball": "BA55",
+      "gpio": "GPIO1_6",
+      "functions": {
+        "f0": "SE_SCL",
+        "f2": "USB_VBUS_EN0",
+        "f4": "MIO3_A",
+        "f5": "GPIO1_6"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO1_7": {
+      "ball": "BA53",
+      "gpio": "GPIO1_7",
+      "functions": {
+        "f0": "SE_SDA",
+        "f2": "USB_OC_N0",
+        "f4": "MIO3_B",
+        "f5": "GPIO1_7"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__AR59": {
+      "ball": "AR59",
+      "gpio": "",
+      "functions": {
+        "f0": "SE_SMBCLK"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__AU59": {
+      "ball": "AU59",
+      "gpio": "",
+      "functions": {
+        "f0": "SE_SMBDAT"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__AR57": {
+      "ball": "AR57",
+      "gpio": "",
+      "functions": {
+        "f0": "SE_SMBALT"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO1_11": {
+      "ball": "BA49",
+      "gpio": "GPIO1_11",
+      "functions": {
+        "f5": "GPIO1_11"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO1_12": {
+      "ball": "AW55",
+      "gpio": "GPIO1_12",
+      "functions": {
+        "f5": "GPIO1_12"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO1_13": {
+      "ball": "A35",
+      "gpio": "GPIO1_13",
+      "functions": {
+        "f5": "GPIO1_13"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO1_14": {
+      "ball": "R57",
+      "gpio": "GPIO1_14",
+      "functions": {
+        "f0": "FJTAG_NTRST",
+        "f6": "GPIO1_14"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO1_15": {
+      "ball": "R59",
+      "gpio": "GPIO1_15",
+      "functions": {
+        "f0": "FJTAG_TDI",
+        "f6": "GPIO1_15"
+      },
+      "pull_config": "SEL"
+    },
+    "__U59": {
+      "ball": "U59",
+      "gpio": "",
+      "functions": {
+        "f0": "FJTAG_TCK"
+      },
+      "pull_config": "SEL"
+    },
+    "__W59": {
+      "ball": "W59",
+      "gpio": "",
+      "functions": {
+        "f0": "FJTAG_TDO"
+      },
+      "pull_config": "SEL"
+    },
+    "__U57": {
+      "ball": "U57",
+      "gpio": "",
+      "functions": {
+        "f0": "FJTAG_TMS"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO2_3": {
+      "ball": "AA57",
+      "gpio": "GPIO2_3",
+      "functions": {
+        "f4": "MIO6_A",
+        "f6": "GPIO2_3"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_4": {
+      "ball": "AA59",
+      "gpio": "GPIO2_4",
+      "functions": {
+        "f4": "MIO6_B",
+        "f6": "GPIO2_4"
+      },
+      "pull_config": "SEL"
+    },
+    "__AW51": {
+      "ball": "AW51",
+      "gpio": "",
+      "functions": {
+        "f0": "UART1_RXD"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__AU51": {
+      "ball": "AU51",
+      "gpio": "",
+      "functions": {
+        "f0": "UART1_TXD"
+      },
+      "pull_config": "SEL"
+    },
+    "__A39": {
+      "ball": "A39",
+      "gpio": "",
+      "functions": {
+        "f0": "CRU_CLK_OBV"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_8": {
+      "ball": "C39",
+      "gpio": "GPIO2_8",
+      "functions": {
+        "f0": "CRU_RST_OK",
+        "f6": "GPIO2_8"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_9": {
+      "ball": "C37",
+      "gpio": "GPIO2_9",
+      "functions": {
+        "f0": "DP0_HPD",
+        "f4": "UART1_CTS_N",
+        "f5": "QSPI_CSN2",
+        "f6": "GPIO2_9"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO2_10": {
+      "ball": "A37",
+      "gpio": "GPIO2_10",
+      "functions": {
+        "f0": "DP1_HPD",
+        "f4": "UART1_RTS_N",
+        "f5": "QSPI_CSN3",
+        "f6": "GPIO2_10"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "__A41": {
+      "ball": "A41",
+      "gpio": "",
+      "functions": {
+        "f0": "CAN0_TX",
+        "f5": "MIO0_A"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__A43": {
+      "ball": "A43",
+      "gpio": "",
+      "functions": {
+        "f0": "CAN0_RX",
+        "f1": "PCIE2_PRSNT0",
+        "f5": "MIO0_B"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__A45": {
+      "ball": "A45",
+      "gpio": "",
+      "functions": {
+        "f0": "CAN1_TX",
+        "f5": "MIO1_A"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__C45": {
+      "ball": "C45",
+      "gpio": "",
+      "functions": {
+        "f0": "CAN1_RX",
+        "f1": "PCIE2_PRSNT1",
+        "f5": "MIO1_B"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "__A47": {
+      "ball": "A47",
+      "gpio": "",
+      "functions": {
+        "f0": "UART2_RXD",
+        "f5": "MIO2_A"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_0": {
+      "ball": "A49",
+      "gpio": "GPIO3_0",
+      "functions": {
+        "f0": "UART2_TXD",
+        "f1": "PCIE2_PRSNT2",
+        "f4": "SPIM2_CSN3",
+        "f5": "MIO2_B",
+        "f6": "GPIO3_0"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO3_1": {
+      "ball": "C49",
+      "gpio": "GPIO3_1",
+      "functions": {
+        "f0": "UART2_CTS_N",
+        "f4": "SPIM2_CSN2",
+        "f5": "MIO10_A",
+        "f6": "GPIO3_1"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_2": {
+      "ball": "A51",
+      "gpio": "GPIO3_2",
+      "functions": {
+        "f0": "UART2_RTS_N",
+        "f1": "PCIE2_PRSNT3",
+        "f4": "SPIM2_CSN1",
+        "f5": "MIO10_B",
+        "f6": "GPIO3_2"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_3": {
+      "ball": "A33",
+      "gpio": "GPIO3_3",
+      "functions": {
+        "f0": "SPIM2_SCLK",
+        "f3": "MDC1",
+        "f4": "LBC_RB_N4",
+        "f5": "GPIO3_3"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO3_4": {
+      "ball": "C33",
+      "gpio": "GPIO3_4",
+      "functions": {
+        "f0": "SPIM2_TXD",
+        "f3": "MDIO1",
+        "f4": "LBC_RB_N5",
+        "f5": "GPIO3_4"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO3_5": {
+      "ball": "C31",
+      "gpio": "GPIO3_5",
+      "functions": {
+        "f0": "SPIM2_RXD",
+        "f3": "MDC0",
+        "f4": "LBC_CS_N4",
+        "f5": "GPIO3_5"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_6": {
+      "ball": "A31",
+      "gpio": "GPIO3_6",
+      "functions": {
+        "f0": "SPIM2_CSN0",
+        "f3": "MDIO0",
+        "f4": "LBC_CS_N5",
+        "f5": "GPIO3_6"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_7": {
+      "ball": "AJ53",
+      "gpio": "GPIO3_7",
+      "functions": {
+        "f0": "SD0_DET_N",
+        "f1": "NF_RB_N2",
+        "f3": "MDC1",
+        "f5": "LBC_BWE_N",
+        "f6": "GPIO3_7"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_8": {
+      "ball": "AL49",
+      "gpio": "GPIO3_8",
+      "functions": {
+        "f0": "SD0_PWR_EN",
+        "f1": "NF_WP_N",
+        "f3": "MDIO1",
+        "f6": "GPIO3_8"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO3_9": {
+      "ball": "AL47",
+      "gpio": "GPIO3_9",
+      "functions": {
+        "f0": "SD0_VOLT0",
+        "f1": "NF_DQS",
+        "f3": "MDC0",
+        "f6": "GPIO3_9"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO3_10": {
+      "ball": "AN49",
+      "gpio": "GPIO3_10",
+      "functions": {
+        "f0": "SD0_INT_N",
+        "f1": "NF_CE_N2",
+        "f3": "MDIO0",
+        "f6": "GPIO3_10"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_11": {
+      "ball": "AG51",
+      "gpio": "GPIO3_11",
+      "functions": {
+        "f0": "SD0_RST_N",
+        "f1": "NF_RB_N3",
+        "f6": "GPIO3_11"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_12": {
+      "ball": "AJ51",
+      "gpio": "GPIO3_12",
+      "functions": {
+        "f0": "SD0_CMD",
+        "f1": "NF_CE_N3",
+        "f6": "GPIO3_12"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_13": {
+      "ball": "AG49",
+      "gpio": "GPIO3_13",
+      "functions": {
+        "f0": "SD0_DATA0",
+        "f6": "GPIO3_13"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_14": {
+      "ball": "AE55",
+      "gpio": "GPIO3_14",
+      "functions": {
+        "f0": "SD0_DATA1",
+        "f6": "GPIO3_14"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO3_15": {
+      "ball": "AE53",
+      "gpio": "GPIO3_15",
+      "functions": {
+        "f0": "SD0_DATA2",
+        "f6": "GPIO3_15"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_0": {
+      "ball": "AG55",
+      "gpio": "GPIO4_0",
+      "functions": {
+        "f0": "SD0_DATA3",
+        "f6": "GPIO4_0"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_1": {
+      "ball": "AJ49",
+      "gpio": "GPIO4_1",
+      "functions": {
+        "f0": "SD0_CLK",
+        "f6": "GPIO4_1"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO4_2": {
+      "ball": "AC55",
+      "gpio": "GPIO4_2",
+      "functions": {
+        "f0": "NF_RB_N0",
+        "f1": "SD0_DATA4",
+        "f5": "LBC_RB_N6",
+        "f6": "GPIO4_2"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_3": {
+      "ball": "AC53",
+      "gpio": "GPIO4_3",
+      "functions": {
+        "f0": "NF_WEN_CLK",
+        "f1": "SD0_DATA5",
+        "f5": "LBC_RB_N7",
+        "f6": "GPIO4_3"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO4_4": {
+      "ball": "AE51",
+      "gpio": "GPIO4_4",
+      "functions": {
+        "f0": "NF_REN_WRN",
+        "f1": "SD0_DATA6",
+        "f5": "LBC_CS_N6",
+        "f6": "GPIO4_4"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO4_5": {
+      "ball": "W51",
+      "gpio": "GPIO4_5",
+      "functions": {
+        "f0": "NF_CLE",
+        "f1": "SD0_DATA7",
+        "f5": "LBC_CS_N7",
+        "f6": "GPIO4_5"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO4_6": {
+      "ball": "W55",
+      "gpio": "GPIO4_6",
+      "functions": {
+        "f0": "NF_ALE",
+        "f2": "SPIM0_SCLK",
+        "f5": "LBC_BCTL",
+        "f6": "GPIO4_6"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO4_7": {
+      "ball": "W53",
+      "gpio": "GPIO4_7",
+      "functions": {
+        "f0": "NF_DATA0",
+        "f1": "SD0_VOLT1",
+        "f2": "SPIM0_TXD",
+        "f5": "LBC_WE_N0",
+        "f6": "GPIO4_7"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_8": {
+      "ball": "U55",
+      "gpio": "GPIO4_8",
+      "functions": {
+        "f0": "NF_DATA1",
+        "f1": "SD0_WP_N",
+        "f2": "SPIM0_RXD",
+        "f5": "LBC_WE_N1",
+        "f6": "GPIO4_8"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_9": {
+      "ball": "U53",
+      "gpio": "GPIO4_9",
+      "functions": {
+        "f0": "NF_DATA2",
+        "f2": "SPIM0_CSN0",
+        "f5": "LBC_PAR0",
+        "f6": "GPIO4_9"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_10": {
+      "ball": "AE49",
+      "gpio": "GPIO4_10",
+      "functions": {
+        "f0": "NF_DATA3",
+        "f1": "PCIE0_PRSNT",
+        "f2": "SPIM0_CSN1",
+        "f5": "LBC_PAR1",
+        "f6": "GPIO4_10"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_11": {
+      "ball": "AC49",
+      "gpio": "GPIO4_11",
+      "functions": {
+        "f0": "NF_DATA4",
+        "f2": "SPIM0_CSN2",
+        "f6": "GPIO4_11"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_12": {
+      "ball": "AE47",
+      "gpio": "GPIO4_12",
+      "functions": {
+        "f0": "NF_DATA5",
+        "f1": "PCIE1_PRSNT",
+        "f2": "SPIM0_CSN3",
+        "f5": "LBC_CS_N2",
+        "f6": "GPIO4_12"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_13": {
+      "ball": "AA47",
+      "gpio": "GPIO4_13",
+      "functions": {
+        "f0": "NF_DATA6",
+        "f1": "JTAGM_NTRST",
+        "f5": "LBC_CS_N3",
+        "f6": "GPIO4_13"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_14": {
+      "ball": "AA49",
+      "gpio": "GPIO4_14",
+      "functions": {
+        "f0": "NF_DATA7",
+        "f1": "JTAGM_TCK",
+        "f4": "MIO8_A",
+        "f5": "LBC_RB_N0",
+        "f6": "GPIO4_14"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO4_15": {
+      "ball": "W49",
+      "gpio": "GPIO4_15",
+      "functions": {
+        "f0": "NF_CE_N0",
+        "f1": "JTAGM_TMS",
+        "f4": "MIO8_B",
+        "f5": "LBC_RB_N1",
+        "f6": "GPIO4_15"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_0": {
+      "ball": "AA51",
+      "gpio": "GPIO5_0",
+      "functions": {
+        "f0": "NF_CE_N1",
+        "f1": "JTAGM_TDO",
+        "f4": "MIO9_A",
+        "f5": "LBC_RB_N2",
+        "f6": "GPIO5_0"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_1": {
+      "ball": "U49",
+      "gpio": "GPIO5_1",
+      "functions": {
+        "f0": "NF_RB_N1",
+        "f1": "JTAGM_TDI",
+        "f4": "MIO9_B",
+        "f5": "LBC_RB_N3",
+        "f6": "GPIO5_1"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_2": {
+      "ball": "G59",
+      "gpio": "GPIO5_2",
+      "functions": {
+        "f0": "SD1_CMD",
+        "f1": "NF_DATA8",
+        "f4": "MIO11_A",
+        "f6": "GPIO5_2"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_3": {
+      "ball": "J59",
+      "gpio": "GPIO5_3",
+      "functions": {
+        "f0": "SD1_DATA0",
+        "f1": "NF_DATA9",
+        "f3": "FTLM_LDRQ_N",
+        "f4": "MIO11_B",
+        "f6": "GPIO5_3"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_4": {
+      "ball": "L57",
+      "gpio": "GPIO5_4",
+      "functions": {
+        "f0": "SD1_DATA1",
+        "f1": "NF_DATA10",
+        "f3": "FTLM_SIRQ_N",
+        "f4": "FTLS_SIRQ_N",
+        "f6": "GPIO5_4"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_5": {
+      "ball": "C59",
+      "gpio": "GPIO5_5",
+      "functions": {
+        "f0": "SD1_DATA2",
+        "f1": "NF_DATA11",
+        "f3": "FTLM_LCLK",
+        "f4": "FTLS_LCLK",
+        "f6": "GPIO5_5"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_6": {
+      "ball": "E59",
+      "gpio": "GPIO5_6",
+      "functions": {
+        "f0": "SD1_DATA3",
+        "f1": "NF_DATA12",
+        "f3": "FTLM_LAD0",
+        "f4": "FTLS_LAD0",
+        "f6": "GPIO5_6"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_7": {
+      "ball": "J57",
+      "gpio": "GPIO5_7",
+      "functions": {
+        "f0": "SD1_CLK",
+        "f1": "NF_DATA13",
+        "f3": "FTLM_LAD1",
+        "f4": "FTLS_LAD1",
+        "f6": "GPIO5_7"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO5_8": {
+      "ball": "L59",
+      "gpio": "GPIO5_8",
+      "functions": {
+        "f0": "SD1_DET_N",
+        "f1": "NF_DATA14",
+        "f3": "FTLM_LAD2",
+        "f4": "FTLS_LAD2",
+        "f6": "GPIO5_8"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO5_9": {
+      "ball": "N59",
+      "gpio": "GPIO5_9",
+      "functions": {
+        "f0": "SD1_WP_N",
+        "f1": "NF_DATA15",
+        "f3": "FTLM_LAD3",
+        "f4": "FTLS_LAD3",
+        "f6": "GPIO5_9"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO5_10": {
+      "ball": "C57",
+      "gpio": "GPIO5_10",
+      "functions": {
+        "f0": "SD1_VOLT0",
+        "f3": "FTLM_LFRAME_N",
+        "f4": "FTLS_LFRAME_N",
+        "f6": "GPIO5_10"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO5_11": {
+      "ball": "E57",
+      "gpio": "GPIO5_11",
+      "functions": {
+        "f0": "SD1_VOLT1",
+        "f3": "FTLM_RST_N",
+        "f4": "FTLS_RST_N",
+        "f6": "GPIO5_11"
+      },
+      "pull_config": "SEL,DOWN"
+    },
+    "GPIO5_12": {
+      "ball": "E31",
+      "gpio": "GPIO5_12",
+      "functions": {
+        "f0": "LBC_ALE",
+        "f1": "RGMII0_TXD0",
+        "f3": "MIO4_A",
+        "f4": "SPIM3_SCLK",
+        "f6": "GPIO5_12"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO5_13": {
+      "ball": "G31",
+      "gpio": "GPIO5_13",
+      "functions": {
+        "f0": "LBC_CS_N0",
+        "f1": "RGMII0_TXD1",
+        "f3": "MIO4_B",
+        "f4": "SPIM3_TXD",
+        "f5": "SD1_PWR_EN",
+        "f6": "GPIO5_13"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO5_14": {
+      "ball": "N41",
+      "gpio": "GPIO5_14",
+      "functions": {
+        "f0": "LBC_CS_N1",
+        "f1": "RGMII0_RXD0",
+        "f3": "MIO5_A",
+        "f4": "SPIM3_RXD",
+        "f6": "GPIO5_14"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO5_15": {
+      "ball": "N39",
+      "gpio": "GPIO5_15",
+      "functions": {
+        "f0": "LBC_OE_N",
+        "f1": "RGMII0_RXD1",
+        "f3": "MIO5_B",
+        "f4": "SPIM3_CSN0",
+        "f6": "GPIO5_15"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_1": {
+      "ball": "J33",
+      "gpio": "GPIO0_1",
+      "functions": {
+        "f0": "LBC_PSS",
+        "f1": "RGMII0_TXCTL",
+        "f4": "SPIM3_CSN1",
+        "f6": "GPIO0_1"
+      },
+      "pull_config": "SEL,UP"
+    },
+    "GPIO0_2": {
+      "ball": "N33",
+      "gpio": "GPIO0_2",
+      "functions": {
+        "f0": "LBC_AD0",
+        "f1": "RGMII0_RXD2",
+        "f4": "SPIM3_CSN2",
+        "f6": "GPIO0_2"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_3": {
+      "ball": "L33",
+      "gpio": "GPIO0_3",
+      "functions": {
+        "f0": "LBC_AD1",
+        "f1": "RGMII0_RXD3",
+        "f3": "MIO7_A",
+        "f4": "SPIM3_CSN3",
+        "f6": "GPIO0_3"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_4": {
+      "ball": "N45",
+      "gpio": "GPIO0_4",
+      "functions": {
+        "f0": "LBC_AD2",
+        "f1": "RGMII0_RXCLK",
+        "f3": "MIO7_B",
+        "f4": "SPIM1_CSN3",
+        "f5": "SD1_INT_N",
+        "f6": "GPIO0_4"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_5": {
+      "ball": "N43",
+      "gpio": "GPIO0_5",
+      "functions": {
+        "f0": "LBC_AD3",
+        "f1": "RGMII0_RXCTL",
+        "f4": "SPIM1_SCLK",
+        "f5": "USB_VBUS_EN1",
+        "f6": "GPIO0_5"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO0_6": {
+      "ball": "L31",
+      "gpio": "GPIO0_6",
+      "functions": {
+        "f0": "LBC_AD4",
+        "f1": "RGMII0_TXCLK",
+        "f4": "SPIM1_TXD",
+        "f5": "USB_OC_N1",
+        "f6": "GPIO0_6"
+      },
+      "pull_config": "SEL"
+    },
+    "__J31": {
+      "ball": "J31",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD5",
+        "f1": "RGMII0_TXD2",
+        "f4": "SPIM1_RXD"
+      },
+      "pull_config": "SEL"
+    },
+    "__J29": {
+      "ball": "J29",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD6",
+        "f1": "RGMII0_TXD3",
+        "f4": "SPIM1_CSN0"
+      },
+      "pull_config": "SEL"
+    },
+    "__E29": {
+      "ball": "E29",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD7",
+        "f1": "MDC2",
+        "f5": "USB_VBUS_EN3"
+      },
+      "pull_config": "SEL"
+    },
+    "__G29": {
+      "ball": "G29",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD8",
+        "f1": "MDIO2",
+        "f5": "USB_OC_N3"
+      },
+      "pull_config": "SEL"
+    },
+    "__N27": {
+      "ball": "N27",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD9",
+        "f4": "SPIM1_CSN1",
+        "f5": "USB_VBUS_EN4"
+      },
+      "pull_config": "SEL"
+    },
+    "__L29": {
+      "ball": "L29",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD10",
+        "f4": "SPIM1_CSN2",
+        "f5": "USB_OC_N4"
+      },
+      "pull_config": "SEL"
+    },
+    "__J37": {
+      "ball": "J37",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD11",
+        "f1": "RGMII1_TXD0",
+        "f4": "UART0_RXD",
+        "f5": "KEY_COL0"
+      },
+      "pull_config": "SEL"
+    },
+    "__J39": {
+      "ball": "J39",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD12",
+        "f1": "RGMII1_TXD1",
+        "f4": "UART0_TXD",
+        "f5": "KEY_COL1"
+      },
+      "pull_config": "SEL"
+    },
+    "__G41": {
+      "ball": "G41",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD13",
+        "f1": "RGMII1_RXD0",
+        "f4": "UART0_CTS_N",
+        "f5": "KEY_COL2"
+      },
+      "pull_config": "SEL"
+    },
+    "__E43": {
+      "ball": "E43",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD14",
+        "f1": "RGMII1_RXD1",
+        "f4": "UART0_RTS_N",
+        "f5": "KEY_COL3"
+      },
+      "pull_config": "SEL"
+    },
+    "__L43": {
+      "ball": "L43",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_AD15",
+        "f1": "RGMII1_TXCTL",
+        "f4": "UART0_DCD_N",
+        "f5": "KEY_COL4"
+      },
+      "pull_config": "SEL"
+    },
+    "__C43": {
+      "ball": "C43",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR16",
+        "f1": "RGMII1_RXD2",
+        "f4": "UART0_DSR_N",
+        "f5": "KEY_COL5"
+      },
+      "pull_config": "SEL"
+    },
+    "__E41": {
+      "ball": "E41",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR17",
+        "f1": "RGMII1_RXD3",
+        "f3": "MIO12_A",
+        "f4": "UART0_RI_N",
+        "f5": "KEY_COL6"
+      },
+      "pull_config": "SEL"
+    },
+    "__L45": {
+      "ball": "L45",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR18",
+        "f1": "RGMII1_RXCLK",
+        "f3": "MIO12_B",
+        "f4": "UART0_DTR_N",
+        "f5": "KEY_COL7"
+      },
+      "pull_config": "SEL"
+    },
+    "__J43": {
+      "ball": "J43",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR19",
+        "f1": "RGMII1_RXCTL",
+        "f3": "USB_VBUS_EN2",
+        "f5": "KEY_ROW0"
+      },
+      "pull_config": "SEL"
+    },
+    "__J41": {
+      "ball": "J41",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR20",
+        "f1": "RGMII1_TXCLK",
+        "f3": "USB_OC_N2",
+        "f5": "KEY_ROW1"
+      },
+      "pull_config": "SEL"
+    },
+    "__L39": {
+      "ball": "L39",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR21",
+        "f1": "RGMII1_TXD2",
+        "f3": "SPIM0_CSN3",
+        "f5": "KEY_ROW2"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO1_8": {
+      "ball": "E37",
+      "gpio": "GPIO1_8",
+      "functions": {
+        "f0": "LBC_ADDR22",
+        "f1": "RGMII1_TXD3",
+        "f3": "SPIM0_CSN2",
+        "f5": "KEY_ROW3",
+        "f6": "GPIO1_8"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO1_9": {
+      "ball": "E35",
+      "gpio": "GPIO1_9",
+      "functions": {
+        "f0": "LBC_ADDR23",
+        "f1": "MDC3",
+        "f3": "SPIM0_CSN1",
+        "f5": "KEY_ROW4",
+        "f6": "GPIO1_9"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO1_10": {
+      "ball": "G35",
+      "gpio": "GPIO1_10",
+      "functions": {
+        "f0": "LBC_ADDR24",
+        "f1": "MDIO3",
+        "f2": "UART3_RTS_N",
+        "f3": "SPIM0_CSN0",
+        "f5": "KEY_ROW5",
+        "f6": "GPIO1_10"
+      },
+      "pull_config": "SEL"
+    },
+    "__J35": {
+      "ball": "J35",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR25",
+        "f2": "UART3_CTS_N",
+        "f3": "SPIM0_SCLK",
+        "f5": "KEY_ROW6"
+      },
+      "pull_config": "SEL"
+    },
+    "__L37": {
+      "ball": "L37",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR26",
+        "f2": "UART3_RXD",
+        "f3": "SPIM0_TXD",
+        "f5": "KEY_ROW7"
+      },
+      "pull_config": "SEL"
+    },
+    "__N35": {
+      "ball": "N35",
+      "gpio": "",
+      "functions": {
+        "f0": "LBC_ADDR27",
+        "f2": "UART3_TXD",
+        "f3": "SPIM0_RXD"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_0": {
+      "ball": "R51",
+      "gpio": "GPIO2_0",
+      "functions": {
+        "f0": "GPIO2_0",
+        "f1": "I2S_MCLK",
+        "f2": "FTH_RST_N",
+        "f5": "MDC3"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_1": {
+      "ball": "R49",
+      "gpio": "GPIO2_1",
+      "functions": {
+        "f0": "GPIO2_1",
+        "f1": "I2S_BCLK",
+        "f2": "FTH_BCLK",
+        "f5": "MDIO3",
+        "f6": "PCIE1_PRSNT"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_2": {
+      "ball": "N51",
+      "gpio": "GPIO2_2",
+      "functions": {
+        "f0": "GPIO2_2",
+        "f1": "I2S_LRCK",
+        "f2": "FTH_SYNC",
+        "f5": "MDC2"
+      },
+      "pull_config": "SEL"
+    },
+    "__N55": {
+      "ball": "N55",
+      "gpio": "",
+      "functions": {
+        "f1": "I2S_SDO0",
+        "f2": "FTH_SDO",
+        "f5": "MDIO2",
+        "f6": "PCIE2_PRSNT0"
+      },
+      "pull_config": "SEL"
+    },
+    "__L55": {
+      "ball": "L55",
+      "gpio": "",
+      "functions": {
+        "f1": "I2S_SDI0",
+        "f2": "FTH_SDI0"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_5": {
+      "ball": "J55",
+      "gpio": "GPIO2_5",
+      "functions": {
+        "f0": "GPIO2_5",
+        "f1": "I2S_SDO1",
+        "f2": "FTH_SDI1",
+        "f6": "PCIE2_PRSNT1"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_6": {
+      "ball": "J45",
+      "gpio": "GPIO2_6",
+      "functions": {
+        "f0": "GPIO2_6",
+        "f1": "I2S_SDI1",
+        "f2": "FTH_SDI2"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_7": {
+      "ball": "E47",
+      "gpio": "GPIO2_7",
+      "functions": {
+        "f0": "GPIO2_7",
+        "f1": "I2S_SDO2",
+        "f2": "FTH_SDI3",
+        "f6": "PCIE2_PRSNT2"
+      },
+      "pull_config": "SEL"
+    },
+    "__G47": {
+      "ball": "G47",
+      "gpio": "",
+      "functions": {
+        "f1": "I2S_SDI2",
+        "f2": "SATA0_ACTLED"
+      },
+      "pull_config": "SEL"
+    },
+    "__J47": {
+      "ball": "J47",
+      "gpio": "",
+      "functions": {
+        "f1": "I2S_SDO3",
+        "f6": "PCIE2_PRSNT3"
+      },
+      "pull_config": "SEL"
+    },
+    "__J49": {
+      "ball": "J49",
+      "gpio": "",
+      "functions": {
+        "f1": "I2S_SDI3",
+        "f2": "SATA1_ACTLED",
+        "f6": "MIO13_A"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_11": {
+      "ball": "N49",
+      "gpio": "GPIO2_11",
+      "functions": {
+        "f0": "GPIO2_11",
+        "f6": "MIO13_B"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_12": {
+      "ball": "L51",
+      "gpio": "GPIO2_12",
+      "functions": {
+        "f0": "GPIO2_12",
+        "f6": "MIO14_A"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_13": {
+      "ball": "L49",
+      "gpio": "GPIO2_13",
+      "functions": {
+        "f0": "GPIO2_13",
+        "f6": "MIO14_B"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_14": {
+      "ball": "N53",
+      "gpio": "GPIO2_14",
+      "functions": {
+        "f0": "GPIO2_14",
+        "f6": "MIO15_A"
+      },
+      "pull_config": "SEL"
+    },
+    "GPIO2_15": {
+      "ball": "J53",
+      "gpio": "GPIO2_15",
+      "functions": {
+        "f0": "GPIO2_15",
+        "f6": "MIO15_B"
+      },
+      "pull_config": "SEL"
+    }
+  }
+}

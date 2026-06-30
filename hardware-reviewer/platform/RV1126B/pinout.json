@@ -1,0 +1,6382 @@
+{
+  "meta": {
+    "source": "RV1126B_PinOut_V1.1",
+    "parsed": "2026-06-30",
+    "total_entries": 489
+  },
+  "pins": {
+    "__AL14": {
+      "ball": "AL14",
+      "domain": "OSC",
+      "io_type": "CO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL15": {
+      "ball": "AL15",
+      "domain": "OSC/RTC",
+      "io_type": "CI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K4": {
+      "ball": "2K4",
+      "domain": "OSC/RTC",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J4": {
+      "ball": "2J4",
+      "domain": "OSC/RTC",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AM8": {
+      "ball": "AM8",
+      "domain": "RTC",
+      "io_type": "CI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AM7": {
+      "ball": "AM7",
+      "domain": "OSC/RTC",
+      "io_type": "CO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M3": {
+      "ball": "2M3",
+      "domain": "OSC/RTC",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C13": {
+      "ball": "2C13",
+      "domain": "OTP",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H12": {
+      "ball": "2H12",
+      "domain": "TSADC/SARADC1&2",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL13": {
+      "ball": "AL13",
+      "domain": "PMUIO0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": true,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO0_A0": {
+      "ball": "AM13",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "high-z",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A0",
+      "functions": {
+        "f0": "REF_CLK0_OUT",
+        "f1": "TEST_CLK0_OUT"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A1": {
+      "ball": "AL11",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "high-z",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A1",
+      "functions": {
+        "f0": "FSPI1_D3_M0",
+        "f1": "PWM1_CH1_M0",
+        "f2": "TSADC_SHUT",
+        "f3": "TSADC_SHUTORG"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A2": {
+      "ball": "AL12",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "high-z",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A2",
+      "functions": {
+        "f0": "RTC_32K_OUT",
+        "f1": "CLK_32K"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A3": {
+      "ball": "AM11",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A3",
+      "functions": {
+        "f0": "PWR_CTRL0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A4": {
+      "ball": "1AB6",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A4",
+      "functions": {
+        "f0": "PWR_CTRL1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A5": {
+      "ball": "AL10",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A5",
+      "functions": {
+        "f0": "SDMMC0_DETN",
+        "f1": "PWM1_CH0_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A6": {
+      "ball": "1AA6",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A6",
+      "functions": {
+        "f0": "FSPI1_D2_M0",
+        "f1": "SPI0_CSN1_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_A7": {
+      "ball": "1AC4",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_A7",
+      "functions": {
+        "f0": "FSPI1_CSN0_M0",
+        "f1": "SPI0_CSN0_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_B0": {
+      "ball": "1AB4",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_B0",
+      "functions": {
+        "f0": "FSPI1_D0_M0",
+        "f1": "SPI0_MOSI_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_B1": {
+      "ball": "1AA4",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_B1",
+      "functions": {
+        "f0": "FSPI1_D1_M0",
+        "f1": "SPI0_MISO_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_B2": {
+      "ball": "1AC2",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_B2",
+      "functions": {
+        "f0": "FSPI1_CLK_M0",
+        "f1": "SPI0_CLK_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_B3": {
+      "ball": "AM10",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_B3",
+      "functions": {
+        "f0": "UART0_TX_M2",
+        "f1": "PWM1_CH2_M0",
+        "f2": "I2C1_SCL_M0",
+        "f3": "JTAG_TCK_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_B4": {
+      "ball": "AL9",
+      "domain": "PMUIO0",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_B4",
+      "functions": {
+        "f0": "UART0_RX_M2",
+        "f1": "PWM1_CH3_M0",
+        "f2": "I2C1_SDA_M0",
+        "f3": "JTAG_TMS_M0"
+      },
+      "default_function": "f0"
+    },
+    "__2K5": {
+      "ball": "2K5",
+      "domain": "PMUIO0",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L5": {
+      "ball": "2L5",
+      "domain": "PMUIO0",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L4": {
+      "ball": "2L4",
+      "domain": "PMUIO0",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO0_C0": {
+      "ball": "1AC12",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C0",
+      "functions": {
+        "f0": "I2C3_SCL_M0",
+        "f1": "PWM0_CH7_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C1": {
+      "ball": "1AC10",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C1",
+      "functions": {
+        "f0": "I2C3_SDA_M0",
+        "f1": "PWM0_CH6_M0",
+        "f2": "PWR_CTRL2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C2": {
+      "ball": "1AA12",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C2",
+      "functions": {
+        "f0": "SPI2AHB_CSN0",
+        "f3": "I2C0_SCL_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C3": {
+      "ball": "1AB12",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C3",
+      "functions": {
+        "f0": "SPI2AHB_CLK",
+        "f3": "I2C0_SDA_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C4": {
+      "ball": "1AC8",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C4",
+      "functions": {
+        "f0": "SPI2AHB_D3",
+        "f1": "PWM0_CH0_M0",
+        "f2": "UART1_TX_M0",
+        "f3": "I2C5_SCL_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C5": {
+      "ball": "1AA10",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C5",
+      "functions": {
+        "f0": "SPI2AHB_D2",
+        "f1": "PWM0_CH1_M0",
+        "f2": "UART1_RX_M0",
+        "f3": "I2C5_SDA_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C6": {
+      "ball": "1AB10",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C6",
+      "functions": {
+        "f0": "SPI2AHB_D1",
+        "f1": "PWM0_CH2_M0",
+        "f2": "UART1_RTSN_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_C7": {
+      "ball": "1AB8",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_C7",
+      "functions": {
+        "f0": "SPI2AHB_D0",
+        "f1": "PWM0_CH3_M0",
+        "f2": "UART1_CTSN_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_D0": {
+      "ball": "1AA8",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_D0",
+      "functions": {
+        "f0": "I2C2_SCL_M0",
+        "f1": "PWM0_CH4_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO0_D1": {
+      "ball": "1AC6",
+      "domain": "PMUIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO0_D1",
+      "functions": {
+        "f0": "I2C2_SDA_M0",
+        "f1": "PWM0_CH5_M0"
+      },
+      "default_function": "f0"
+    },
+    "__2M5": {
+      "ball": "2M5",
+      "domain": "PMUIO1",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO1_A0": {
+      "ball": "AL1",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A0",
+      "functions": {
+        "f0": "EMMC_D0",
+        "f1": "FSPI1_D0_M1",
+        "f2": "PWM3_CH0_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A1": {
+      "ball": "1V3",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A1",
+      "functions": {
+        "f0": "EMMC_D1",
+        "f1": "FSPI1_D1_M1",
+        "f2": "PWM3_CH1_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A2": {
+      "ball": "1V2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A2",
+      "functions": {
+        "f0": "EMMC_D2",
+        "f1": "FSPI1_D2_M1",
+        "f2": "PWM3_CH2_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A3": {
+      "ball": "AK2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A3",
+      "functions": {
+        "f0": "EMMC_D3",
+        "f1": "FSPI1_D3_M1",
+        "f2": "PWM3_CH3_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A4": {
+      "ball": "AK1",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A4",
+      "functions": {
+        "f0": "EMMC_D4",
+        "f2": "PWM3_CH4_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A5": {
+      "ball": "AJ2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A5",
+      "functions": {
+        "f0": "EMMC_D5",
+        "f1": "FSPI0_CSN1",
+        "f2": "PWM3_CH5_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A6": {
+      "ball": "AH2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A6",
+      "functions": {
+        "f0": "EMMC_D6",
+        "f2": "PWM3_CH6_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_A7": {
+      "ball": "AH1",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_A7",
+      "functions": {
+        "f0": "EMMC_D7",
+        "f2": "PWM3_CH7_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B0": {
+      "ball": "1V1",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B0",
+      "functions": {
+        "f0": "FSPI0_CSN0",
+        "f1": "SAI1_MCLK_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B1": {
+      "ball": "AG1",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B1",
+      "functions": {
+        "f0": "EMMC_CMD",
+        "f1": "FSPI1_CSN0_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B2": {
+      "ball": "1T3",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B2",
+      "functions": {
+        "f0": "FSPI0_D2",
+        "f1": "SAI1_SDO_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B3": {
+      "ball": "AF2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B3",
+      "functions": {
+        "f0": "EMMC_CLK",
+        "f1": "FSPI1_CLK_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B4": {
+      "ball": "1T2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B4",
+      "functions": {
+        "f0": "FSPI0_D0",
+        "f1": "SAI1_LRCK_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B5": {
+      "ball": "1P3",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B5",
+      "functions": {
+        "f0": "FSPI0_D1",
+        "f1": "SAI1_SCLK_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B6": {
+      "ball": "1T1",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B6",
+      "functions": {
+        "f0": "FSPI0_D3",
+        "f1": "SAI1_SDI_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO1_B7": {
+      "ball": "AG2",
+      "domain": "VCCIO1",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO1_B7",
+      "functions": {
+        "f0": "FSPI0_CLK"
+      },
+      "default_function": "f0"
+    },
+    "__2J2": {
+      "ball": "2J2",
+      "domain": "VCCIO1",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO2_A1": {
+      "ball": "1AA20",
+      "domain": "VCCIO2",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO2_A1",
+      "functions": {
+        "f0": "SDMMC0_D1",
+        "f1": "UART0_TX_M0",
+        "f2": "I2C0_SCL_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO2_A2": {
+      "ball": "1AB18",
+      "domain": "VCCIO2",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO2_A2",
+      "functions": {
+        "f0": "SDMMC0_D2",
+        "f1": "UART3_RX_M0",
+        "f2": "UART4_RTSN_M3",
+        "f3": "JTAG_TCK_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO2_A3": {
+      "ball": "1AA18",
+      "domain": "VCCIO2",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO2_A3",
+      "functions": {
+        "f0": "SDMMC0_D3",
+        "f1": "UART3_TX_M0",
+        "f2": "UART4_CTSN_M3",
+        "f3": "JTAG_TMS_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO2_A4": {
+      "ball": "1AC20",
+      "domain": "VCCIO2",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO2_A4",
+      "functions": {
+        "f0": "SDMMC0_CLK",
+        "f1": "UART3_RTSN_M0",
+        "f2": "UART4_RX_M3"
+      },
+      "default_function": "f0"
+    },
+    "GPIO2_A5": {
+      "ball": "1AC18",
+      "domain": "VCCIO2",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO2_A5",
+      "functions": {
+        "f0": "SDMMC0_CMD",
+        "f1": "UART3_CTSN_M0",
+        "f2": "UART4_TX_M3"
+      },
+      "default_function": "f0"
+    },
+    "__2L10": {
+      "ball": "2L10",
+      "domain": "VCCIO2",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO3_A0": {
+      "ball": "B22",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A0",
+      "functions": {
+        "f0": "SDMMC1_CLK"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_A1": {
+      "ball": "B21",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A1",
+      "functions": {
+        "f0": "SDMMC1_CMD"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_A2": {
+      "ball": "A22",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A2",
+      "functions": {
+        "f0": "SDMMC1_D0",
+        "f1": "I2C1_SCL_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_A3": {
+      "ball": "A23",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A3",
+      "functions": {
+        "f0": "SDMMC1_D1",
+        "f1": "I2C1_SDA_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_A4": {
+      "ball": "A20",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A4",
+      "functions": {
+        "f0": "SDMMC1_D2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_A5": {
+      "ball": "B20",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A5",
+      "functions": {
+        "f0": "SDMMC1_D3"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_A6": {
+      "ball": "B19",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A6",
+      "functions": {
+        "f3": "UART2_RTSN_M0"
+      },
+      "default_function": null
+    },
+    "GPIO3_A7": {
+      "ball": "B18",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_A7",
+      "functions": {
+        "f3": "UART2_CTSN_M0"
+      },
+      "default_function": null
+    },
+    "GPIO3_B0": {
+      "ball": "B17",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B0",
+      "functions": {
+        "f3": "UART2_RX_M0"
+      },
+      "default_function": null
+    },
+    "GPIO3_B1": {
+      "ball": "A17",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B1",
+      "functions": {
+        "f1": "SAI2_SDI2_M0",
+        "f3": "UART2_TX_M0"
+      },
+      "default_function": null
+    },
+    "GPIO3_B2": {
+      "ball": "1B16",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B2",
+      "functions": {
+        "f0": "SPI1_MOSI_M1",
+        "f1": "SAI2_SDO_M0",
+        "f2": "PWM2_CH0_M0",
+        "f5": "FLASH_TRIG_OUT"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_B3": {
+      "ball": "1B14",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B3",
+      "functions": {
+        "f0": "SPI1_MISO_M1",
+        "f1": "SAI2_SDI0_M0",
+        "f2": "PWM2_CH1_M0",
+        "f5": "PRELIGHT_TRIG_OUT"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_B4": {
+      "ball": "1A14",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B4",
+      "functions": {
+        "f0": "SPI1_CLK_M1",
+        "f1": "SAI2_SCLK_M0",
+        "f2": "PWM2_CH2_M0",
+        "f3": "UART1_RTSN_M1",
+        "f4": "I2C4_SCL_M0",
+        "f5": "FEPHY_LEDLINK_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_B5": {
+      "ball": "1A16",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B5",
+      "functions": {
+        "f0": "SPI1_CSN0_M1",
+        "f1": "SAI2_LRCK_M0",
+        "f2": "PWM2_CH3_M0",
+        "f3": "UART1_CTSN_M1",
+        "f4": "I2C4_SDA_M0",
+        "f5": "FEPHY_LEDSPD_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_B6": {
+      "ball": "B16",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B6",
+      "functions": {
+        "f0": "SPI1_CSN1_M1",
+        "f1": "SAI2_MCLK_M0",
+        "f2": "SDMMC1_DETN",
+        "f3": "UART1_TX_M1",
+        "f4": "I2C5_SCL_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO3_B7": {
+      "ball": "A16",
+      "domain": "VCCIO3",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO3_B7",
+      "functions": {
+        "f1": "SAI2_SDI1_M0",
+        "f3": "UART1_RX_M1",
+        "f4": "I2C5_SDA_M1"
+      },
+      "default_function": null
+    },
+    "__2B8": {
+      "ball": "2B8",
+      "domain": "VCCIO3",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO4_A0": {
+      "ball": "AG31",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A0",
+      "functions": {
+        "f2": "CAM_CLK3_OUT",
+        "f4": "UART4_RTSN_M0",
+        "f5": "I2C1_SDA_M2"
+      },
+      "default_function": null
+    },
+    "GPIO4_A1": {
+      "ball": "AG32",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A1",
+      "functions": {
+        "f2": "CAM_CLK2_OUT",
+        "f4": "UART4_CTSN_M0",
+        "f5": "I2C1_SCL_M2"
+      },
+      "default_function": null
+    },
+    "GPIO4_A2": {
+      "ball": "1Y23",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A2",
+      "functions": {
+        "f3": "PWM0_CH4_M1",
+        "f4": "UART4_RX_M0"
+      },
+      "default_function": null
+    },
+    "GPIO4_A3": {
+      "ball": "1V21",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A3",
+      "functions": {
+        "f0": "SPI0_CSN1_M1",
+        "f1": "SAI1_MCLK_M1",
+        "f3": "PWM0_CH5_M1",
+        "f4": "UART4_TX_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO4_A4": {
+      "ball": "1V22",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A4",
+      "functions": {
+        "f0": "SPI0_MOSI_M1",
+        "f1": "SAI1_SCLK_M1",
+        "f5": "I2C3_SCL_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO4_A5": {
+      "ball": "AF32",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A5",
+      "functions": {
+        "f0": "SPI0_MISO_M1",
+        "f1": "SAI1_LRCK_M1",
+        "f5": "I2C3_SDA_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO4_A6": {
+      "ball": "1T21",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A6",
+      "functions": {
+        "f0": "SPI0_CSN0_M1",
+        "f1": "SAI1_SDI_M1",
+        "f3": "PWM0_CH6_M1",
+        "f4": "UART5_TX_M0",
+        "f5": "I2C4_SDA_M2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO4_A7": {
+      "ball": "1T22",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_A7",
+      "functions": {
+        "f0": "SPI0_CLK_M1",
+        "f1": "SAI1_SDO_M1",
+        "f3": "PWM0_CH7_M1",
+        "f4": "UART5_RX_M0",
+        "f5": "I2C4_SCL_M2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO4_B0": {
+      "ball": "AF31",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_B0",
+      "functions": {
+        "f2": "CAM_CLK1_OUT",
+        "f4": "UART5_RTSN_M0"
+      },
+      "default_function": null
+    },
+    "GPIO4_B1": {
+      "ball": "AE31",
+      "domain": "VCCIO4",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO4_B1",
+      "functions": {
+        "f2": "CAM_CLK0_OUT",
+        "f4": "UART5_CTSN_M0"
+      },
+      "default_function": null
+    },
+    "__2J12": {
+      "ball": "2J12",
+      "domain": "VCCIO4",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO5_A0": {
+      "ball": "R31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A0",
+      "functions": {
+        "f0": "VO_LCDC_D0",
+        "f1": "ETH_TXD3_M1",
+        "f2": "VI_CIF_D0_M1",
+        "f3": "DSMC_CSN1",
+        "f5": "IR_FPA_SDA0",
+        "f6": "PWM2_CH4_M0",
+        "f7": "UART4_RTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A1": {
+      "ball": "R32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A1",
+      "functions": {
+        "f0": "VO_LCDC_D1",
+        "f1": "I2C5_SCL_M2",
+        "f2": "VI_CIF_D1_M1",
+        "f3": "DSMC_DQS1",
+        "f4": "SAI2_SDI2_M1",
+        "f5": "IR_FPA_SDA1",
+        "f6": "PWM2_CH5_M0",
+        "f7": "UART4_CTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A2": {
+      "ball": "P32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A2",
+      "functions": {
+        "f0": "VO_LCDC_D2",
+        "f1": "ETH_PPSCLK_M1",
+        "f2": "VI_CIF_D2_M1",
+        "f3": "DSMC_D15",
+        "f4": "SAI2_SDI1_M1",
+        "f6": "PWM0_CH5_M2",
+        "f7": "UART4_TX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A3": {
+      "ball": "P31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A3",
+      "functions": {
+        "f0": "VO_LCDC_D3",
+        "f1": "SPI0_CSN0_M2",
+        "f3": "DSMC_D14",
+        "f4": "SAI2_MCLK_M1",
+        "f6": "PWM0_CH4_M2",
+        "f7": "UART4_RX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A4": {
+      "ball": "N31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A4",
+      "functions": {
+        "f0": "VO_LCDC_D4",
+        "f1": "SPI0_MOSI_M2",
+        "f3": "DSMC_D13",
+        "f4": "SAI2_SDO_M1",
+        "f6": "PWM0_CH3_M1",
+        "f7": "UART5_TX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A5": {
+      "ball": "M32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A5",
+      "functions": {
+        "f0": "VO_LCDC_D5",
+        "f1": "SPI0_MISO_M2",
+        "f3": "DSMC_D12",
+        "f4": "SAI2_SCLK_M1",
+        "f6": "PWM0_CH2_M1",
+        "f7": "UART5_RX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A6": {
+      "ball": "L32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A6",
+      "functions": {
+        "f0": "VO_LCDC_D6",
+        "f1": "SPI0_CLK_M2",
+        "f3": "DSMC_D11",
+        "f4": "SAI2_SDI0_M1",
+        "f6": "PWM0_CH1_M1",
+        "f7": "UART5_RTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_A7": {
+      "ball": "L31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_A7",
+      "functions": {
+        "f0": "VO_LCDC_D7",
+        "f1": "SPI0_CSN1_M2",
+        "f2": "VI_CIF_D3_M1",
+        "f3": "DSMC_D10",
+        "f4": "SAI2_LRCK_M1",
+        "f5": "I2C5_SDA_M2",
+        "f6": "PWM0_CH0_M1",
+        "f7": "UART5_CTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B0": {
+      "ball": "K31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B0",
+      "functions": {
+        "f0": "VO_LCDC_D8",
+        "f1": "ETH_RXCTL_M1",
+        "f2": "VI_CIF_D4_M1",
+        "f3": "DSMC_D9",
+        "f5": "IR_FPA_SDA2",
+        "f7": "UART6_TX_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B1": {
+      "ball": "1K23",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B1",
+      "functions": {
+        "f0": "VO_LCDC_D9",
+        "f1": "ETH_RXD0_M1",
+        "f2": "VI_CIF_D5_M1",
+        "f3": "DSMC_D8",
+        "f5": "IR_FPA_SDA3",
+        "f7": "UART6_RX_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B2": {
+      "ball": "1H23",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B2",
+      "functions": {
+        "f0": "VO_LCDC_D10",
+        "f1": "ETH_RXD1_M1",
+        "f2": "VI_CIF_D6_M1",
+        "f3": "DSMC_RESETN",
+        "f4": "DSMC_INT1",
+        "f6": "PWM2_CH0_M1",
+        "f7": "UART6_RTSN_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B3": {
+      "ball": "2E13",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B3",
+      "functions": {
+        "f0": "VO_LCDC_D11",
+        "f1": "ETH_MCLK_M1",
+        "f2": "VI_CIF_D7_M1",
+        "f3": "DSMC_RDYN",
+        "f6": "PWM2_CH1_M1",
+        "f7": "UART6_CTSN_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B4": {
+      "ball": "1H22",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B4",
+      "functions": {
+        "f0": "VO_LCDC_D12",
+        "f2": "VI_CIF_D8_M1",
+        "f3": "DSMC_CSN0",
+        "f7": "UART7_TX_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B5": {
+      "ball": "1H21",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B5",
+      "functions": {
+        "f0": "VO_LCDC_D13",
+        "f1": "ETH_MDIO_M1",
+        "f2": "VI_CIF_D9_M1",
+        "f3": "DSMC_DQS0",
+        "f7": "UART7_RX_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B6": {
+      "ball": "J31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B6",
+      "functions": {
+        "f0": "VO_LCDC_D14",
+        "f1": "ETH_MDC_M1",
+        "f2": "VI_CIF_D10_M1",
+        "f3": "DSMC_CLKN",
+        "f4": "DSMC_INT0",
+        "f6": "PWM2_CH2_M1",
+        "f7": "UART7_RTSN_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_B7": {
+      "ball": "H32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_B7",
+      "functions": {
+        "f0": "VO_LCDC_D15",
+        "f1": "ETH_TXD0_M1",
+        "f2": "VI_CIF_D11_M1",
+        "f3": "DSMC_CLKP",
+        "f6": "PWM2_CH3_M1",
+        "f7": "UART7_CTSN_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C0": {
+      "ball": "J32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C0",
+      "functions": {
+        "f0": "VO_LCDC_D16",
+        "f1": "ETH_TXD1_M1",
+        "f2": "VI_CIF_D12_M1",
+        "f3": "DSMC_D7",
+        "f5": "IR_FPA_SDA4",
+        "f6": "PWM3_CH0_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C1": {
+      "ball": "1F22",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C1",
+      "functions": {
+        "f0": "VO_LCDC_D17",
+        "f1": "ETH_CLK_25M_OUT_M1",
+        "f2": "VI_CIF_D13_M1",
+        "f3": "DSMC_D6",
+        "f5": "IR_FPA_SDA5",
+        "f6": "PWM3_CH1_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C2": {
+      "ball": "1F23",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C2",
+      "functions": {
+        "f0": "VO_LCDC_D18",
+        "f1": "ETH_TXCTL_M1",
+        "f2": "VI_CIF_D14_M1",
+        "f3": "DSMC_D5",
+        "f5": "IR_FPA_SDA6",
+        "f6": "PWM3_CH2_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C3": {
+      "ball": "G31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C3",
+      "functions": {
+        "f0": "VO_LCDC_D19",
+        "f1": "ETH_RXD2_M1",
+        "f2": "VI_CIF_D15_M1",
+        "f3": "DSMC_D4",
+        "f4": "SAI1_MCLK_M2",
+        "f6": "PWM3_CH3_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C4": {
+      "ball": "F31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C4",
+      "functions": {
+        "f0": "VO_LCDC_D20",
+        "f1": "ETH_RXD3_M1",
+        "f2": "VI_CIF_VSYNC_M1",
+        "f3": "DSMC_D3",
+        "f4": "SAI1_SDO_M2",
+        "f6": "PWM3_CH4_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C5": {
+      "ball": "1D23",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C5",
+      "functions": {
+        "f0": "VO_LCDC_D21",
+        "f1": "ETH_TXD2_M1",
+        "f2": "VI_CIF_CLKOUT_M1",
+        "f3": "DSMC_D2",
+        "f4": "SAI1_SCLK_M2",
+        "f6": "PWM3_CH5_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C6": {
+      "ball": "1D22",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C6",
+      "functions": {
+        "f0": "VO_LCDC_D22",
+        "f1": "ETH_TXCLK_M1",
+        "f2": "VI_CIF_CLKIN_M1",
+        "f3": "DSMC_D1",
+        "f4": "SAI1_LRCK_M2",
+        "f6": "PWM3_CH6_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_C7": {
+      "ball": "1D21",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_C7",
+      "functions": {
+        "f0": "VO_LCDC_D23",
+        "f1": "ETH_RXCLK_M1",
+        "f2": "VI_CIF_HSYNC_M1",
+        "f3": "DSMC_D0",
+        "f4": "SAI1_SDI_M2",
+        "f6": "PWM3_CH7_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D0": {
+      "ball": "F32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D0",
+      "functions": {
+        "f0": "VO_LCDC_DEN",
+        "f1": "SPI1_CSN0_M2",
+        "f2": "ETH_PTP_REFCLK_M1",
+        "f3": "DSMC_CSN3",
+        "f5": "I2C3_SCL_M2",
+        "f6": "PWM0_CH6_M2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D1": {
+      "ball": "E31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D1",
+      "functions": {
+        "f0": "VO_LCDC_HSYNC",
+        "f1": "SPI1_CLK_M2",
+        "f2": "ETH_PPSTRIG_M1",
+        "f3": "DSMC_CSN2",
+        "f5": "I2C3_SDA_M2",
+        "f6": "PWM1_CH2_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D2": {
+      "ball": "E32",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D2",
+      "functions": {
+        "f0": "VO_LCDC_VSYNC",
+        "f1": "SPI1_MOSI_M2",
+        "f3": "DSMC_INT3",
+        "f6": "PWM1_CH1_M1",
+        "f7": "UART3_RTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D3": {
+      "ball": "D31",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D3",
+      "functions": {
+        "f0": "VO_LCDC_CLK",
+        "f1": "SPI1_MISO_M2",
+        "f3": "DSMC_INT2",
+        "f6": "PWM1_CH0_M1",
+        "f7": "UART3_CTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D4": {
+      "ball": "2D13",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D4",
+      "functions": {
+        "f0": "FEPHY_LEDLINK_M1",
+        "f1": "SPI1_CSN1_M2",
+        "f2": "CAN0_RXD_M0",
+        "f4": "IR_FPA_FSYNC",
+        "f5": "I2C2_SCL_M1",
+        "f6": "PWM0_CH7_M2",
+        "f7": "UART3_TX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D5": {
+      "ball": "1C22",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D5",
+      "functions": {
+        "f0": "FEPHY_LEDSPD_M1",
+        "f2": "CAN0_TXD_M0",
+        "f4": "IR_FPA_MCLK",
+        "f5": "I2C2_SDA_M1",
+        "f6": "PWM1_CH3_M1",
+        "f7": "UART3_RX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D6": {
+      "ball": "1A22",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D6",
+      "functions": {
+        "f0": "UART0_TX_M1",
+        "f1": "JTAG_TCK_M2",
+        "f2": "CAN1_RXD_M0",
+        "f6": "PWM2_CH6_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO5_D7": {
+      "ball": "1B22",
+      "domain": "VCCIO5",
+      "io_type": "I/O",
+      "pull": "up",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO5_D7",
+      "functions": {
+        "f0": "UART0_RX_M1",
+        "f1": "JTAG_TMS_M2",
+        "f2": "CAN1_TXD_M0",
+        "f6": "PWM2_CH7_M0"
+      },
+      "default_function": "f0"
+    },
+    "__2E12": {
+      "ball": "2E12",
+      "domain": "VCCIO5",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F12": {
+      "ball": "2F12",
+      "domain": "VCCIO5",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO6_A0": {
+      "ball": "1T23",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A0",
+      "functions": {
+        "f0": "VI_CIF_D0_M0",
+        "f1": "ETH_PPSTRIG_M0",
+        "f2": "CAN0_RXD_M1",
+        "f3": "SAI0_SCLK_M1",
+        "f4": "PWM1_CH0_M2",
+        "f5": "UART4_TX_M2",
+        "f6": "I2C3_SCL_M3",
+        "f7": "SARADC1_IN0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A1": {
+      "ball": "AD32",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A1",
+      "functions": {
+        "f0": "VI_CIF_D1_M0",
+        "f1": "ETH_PTP_REFCLK_M0",
+        "f2": "CAN0_TXD_M1",
+        "f3": "SAI0_LRCK_M1",
+        "f4": "PWM1_CH1_M2",
+        "f5": "UART4_RX_M2",
+        "f6": "I2C3_SDA_M3",
+        "f7": "SARADC1_IN1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A2": {
+      "ball": "AC32",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A2",
+      "functions": {
+        "f0": "VI_CIF_D2_M0",
+        "f1": "ETH_PPSCLK_M0",
+        "f2": "CAN1_RXD_M1",
+        "f3": "SAI0_SDO0_M1",
+        "f4": "PWM1_CH2_M2",
+        "f5": "UART5_TX_M2",
+        "f6": "I2C4_SCL_M1",
+        "f7": "SARADC1_IN2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A3": {
+      "ball": "AC31",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A3",
+      "functions": {
+        "f0": "VI_CIF_D3_M0",
+        "f1": "ETH_RXD2_M0",
+        "f2": "CAN1_TXD_M1",
+        "f3": "SAI0_SDI0_M1",
+        "f4": "PWM1_CH3_M2",
+        "f5": "UART5_RX_M2",
+        "f6": "I2C4_SDA_M1",
+        "f7": "SARADC1_IN3"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A4": {
+      "ball": "AB31",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A4",
+      "functions": {
+        "f0": "VI_CIF_D4_M0",
+        "f1": "ETH_RXD3_M0",
+        "f3": "SAI0_MCLK_M1",
+        "f4": "PWM2_CH0_M2",
+        "f5": "UART5_RTSN_M2",
+        "f6": "I2C5_SCL_M3",
+        "f7": "SARADC1_IN4"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A5": {
+      "ball": "AA31",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A5",
+      "functions": {
+        "f0": "VI_CIF_D5_M0",
+        "f1": "ETH_TXD2_M0",
+        "f4": "PWM2_CH1_M2",
+        "f5": "UART5_CTSN_M2",
+        "f6": "I2C5_SDA_M3",
+        "f7": "SARADC1_IN5"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A6": {
+      "ball": "AA32",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A6",
+      "functions": {
+        "f0": "VI_CIF_D6_M0",
+        "f1": "ETH_TXD3_M0",
+        "f4": "PWM2_CH2_M2",
+        "f5": "UART4_RTSN_M2",
+        "f7": "SARADC1_IN6"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_A7": {
+      "ball": "Y32",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_A7",
+      "functions": {
+        "f0": "VI_CIF_D7_M0",
+        "f1": "ETH_TXD0_M0",
+        "f2": "PWM2_CH3_M2",
+        "f3": "SAI0_SDI3_M1",
+        "f4": "SAI0_SDO1_M1",
+        "f5": "UART4_CTSN_M2",
+        "f7": "SARADC1_IN7"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B0": {
+      "ball": "W31",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B0",
+      "functions": {
+        "f0": "VI_CIF_D8_M0",
+        "f1": "ETH_TXD1_M0",
+        "f2": "SPI1_CSN1_M0",
+        "f3": "SAI0_SDI2_M1",
+        "f4": "SAI0_SDO2_M1",
+        "f5": "UART6_TX_M1",
+        "f7": "SARADC2_IN0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B1": {
+      "ball": "1P21",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B1",
+      "functions": {
+        "f0": "VI_CIF_D9_M0",
+        "f1": "ETH_TXCTL_M0",
+        "f2": "SPI1_CSN0_M0",
+        "f3": "SAI0_SDI1_M1",
+        "f4": "SAI0_SDO3_M1",
+        "f5": "UART6_RX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B2": {
+      "ball": "1P22",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B2",
+      "functions": {
+        "f0": "VI_CIF_D10_M0",
+        "f1": "ETH_RXD0_M0",
+        "f2": "SPI1_MOSI_M0",
+        "f4": "PDM_SDI2_M1",
+        "f5": "UART6_RTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B3": {
+      "ball": "1P23",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B3",
+      "functions": {
+        "f0": "VI_CIF_D11_M0",
+        "f1": "ETH_RXD1_M0",
+        "f2": "SPI1_MISO_M0",
+        "f4": "PDM_SDI3_M1",
+        "f5": "UART6_CTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B4": {
+      "ball": "1M21",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B4",
+      "functions": {
+        "f0": "VI_CIF_D12_M0",
+        "f1": "ETH_MCLK_M0",
+        "f2": "SPI1_CLK_M0",
+        "f4": "PDM_CLK0_M1",
+        "f5": "UART7_TX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B5": {
+      "ball": "1M22",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B5",
+      "functions": {
+        "f0": "VI_CIF_D13_M0",
+        "f1": "ETH_RXCTL_M0",
+        "f4": "PDM_SDI0_M1",
+        "f5": "UART7_RX_M1",
+        "f7": "SARADC2_IN1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B6": {
+      "ball": "1M23",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B6",
+      "functions": {
+        "f0": "VI_CIF_D14_M0",
+        "f4": "PDM_SDI1_M1",
+        "f5": "UART7_RTSN_M1",
+        "f7": "SARADC2_IN2"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_B7": {
+      "ball": "1K21",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_B7",
+      "functions": {
+        "f0": "VI_CIF_D15_M0",
+        "f1": "ETH_MDIO_M0",
+        "f4": "PDM_CLK1_M1",
+        "f5": "UART7_CTSN_M1",
+        "f7": "SARADC2_IN3"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_C0": {
+      "ball": "V32",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_C0",
+      "functions": {
+        "f0": "VI_CIF_VSYNC_M0",
+        "f1": "ETH_MDC_M0",
+        "f4": "PWM0_CH0_M2",
+        "f5": "UART3_RTSN_M2",
+        "f6": "I2C2_SCL_M2",
+        "f7": "SARADC2_IN4"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_C1": {
+      "ball": "U32",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_C1",
+      "functions": {
+        "f0": "VI_CIF_CLKIN_M0",
+        "f1": "ETH_CLK_25M_OUT_M0",
+        "f4": "PWM0_CH1_M2",
+        "f5": "UART3_CTSN_M2",
+        "f7": "SARADC2_IN5"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_C2": {
+      "ball": "U31",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_C2",
+      "functions": {
+        "f0": "VI_CIF_CLKOUT_M0",
+        "f1": "ETH_TXCLK_M0",
+        "f2": "FEPHY_LEDLINK_M2",
+        "f4": "PWM0_CH2_M2",
+        "f5": "UART3_TX_M2",
+        "f7": "SARADC2_IN6"
+      },
+      "default_function": "f0"
+    },
+    "GPIO6_C3": {
+      "ball": "V31",
+      "domain": "VCCIO6",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO6_C3",
+      "functions": {
+        "f0": "VI_CIF_HSYNC_M0",
+        "f1": "ETH_RXCLK_M0",
+        "f2": "FEPHY_LEDSPD_M2",
+        "f4": "PWM0_CH3_M2",
+        "f5": "UART3_RX_M2",
+        "f6": "I2C2_SDA_M2",
+        "f7": "SARADC2_IN7"
+      },
+      "default_function": "f0"
+    },
+    "__2G12": {
+      "ball": "2G12",
+      "domain": "VCCIO6",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "GPIO7_A0": {
+      "ball": "1Y21",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A0",
+      "functions": {
+        "f0": "SAI0_SCLK_M0",
+        "f4": "PWM2_CH4_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_A1": {
+      "ball": "1AA22",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A1",
+      "functions": {
+        "f0": "AUPLL_CLK_IN",
+        "f1": "I2C4_SCL_M3",
+        "f2": "PDM_CLK1_M0",
+        "f4": "PWM2_CH5_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_A2": {
+      "ball": "1AA16",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A2",
+      "functions": {
+        "f0": "SAI0_MCLK_M0",
+        "f4": "PWM2_CH6_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_A3": {
+      "ball": "1AB22",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A3",
+      "functions": {
+        "f0": "SAI0_LRCK_M0",
+        "f3": "DSM_AUD_LN",
+        "f4": "PWM2_CH7_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_A4": {
+      "ball": "1AC16",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A4",
+      "functions": {
+        "f1": "I2C4_SDA_M3",
+        "f2": "PDM_CLK0_M0",
+        "f5": "UART2_CTSN_M1"
+      },
+      "default_function": null
+    },
+    "GPIO7_A5": {
+      "ball": "1AC22",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A5",
+      "functions": {
+        "f0": "SAI0_SDO0_M0",
+        "f3": "DSM_AUD_LP"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_A6": {
+      "ball": "1AB16",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A6",
+      "functions": {
+        "f0": "SAI0_SDI0_M0",
+        "f2": "PDM_SDI0_M0"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_A7": {
+      "ball": "1AA14",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_A7",
+      "functions": {
+        "f0": "SAI0_SDI3_M0",
+        "f1": "SAI0_SDO1_M0",
+        "f2": "PDM_SDI3_M0",
+        "f5": "UART2_RTSN_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_B0": {
+      "ball": "1AB14",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_B0",
+      "functions": {
+        "f0": "SAI0_SDI2_M0",
+        "f1": "SAI0_SDO2_M0",
+        "f2": "PDM_SDI2_M0",
+        "f3": "DSM_AUD_RN",
+        "f4": "I2C1_SCL_M3",
+        "f5": "UART2_RX_M1"
+      },
+      "default_function": "f0"
+    },
+    "GPIO7_B1": {
+      "ball": "1AC14",
+      "domain": "VCCIO7",
+      "io_type": "I/O",
+      "pull": "down",
+      "schmitt": true,
+      "interruptable": true,
+      "gpio": "GPIO7_B1",
+      "functions": {
+        "f0": "SAI0_SDI1_M0",
+        "f1": "SAI0_SDO3_M0",
+        "f2": "PDM_SDI1_M0",
+        "f3": "DSM_AUD_RP",
+        "f4": "I2C1_SDA_M3",
+        "f5": "UART2_TX_M1"
+      },
+      "default_function": "f0"
+    },
+    "__2L9": {
+      "ball": "2L9",
+      "domain": "VCCIO7",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN0": {
+      "ball": "1B20",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN0",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN1": {
+      "ball": "1C18",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN1",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN2": {
+      "ball": "1A18",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN2",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN3": {
+      "ball": "1B18",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN3",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN4": {
+      "ball": "2B11",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN4",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN5": {
+      "ball": "1C16",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN5",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN6": {
+      "ball": "2A10",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN6",
+      "functions": {},
+      "default_function": null
+    },
+    "SARADC0_IN7_BOOT": {
+      "ball": "1A20",
+      "domain": "SARADC",
+      "io_type": "AI",
+      "pull": "high-z",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "SARADC0_IN7_BOOT",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B9": {
+      "ball": "2B9",
+      "domain": "SARADC",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D0P": {
+      "ball": "B28",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D0P",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D0N": {
+      "ball": "B27",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D0N",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D1P": {
+      "ball": "A29",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D1P",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D1N": {
+      "ball": "A28",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D1N",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D2P": {
+      "ball": "A31",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D2P",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D2N": {
+      "ball": "B31",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D2N",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D3P": {
+      "ball": "C32",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D3P",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_D3N": {
+      "ball": "B32",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_D3N",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_CLKP": {
+      "ball": "B30",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_CLKP",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_DSI_TX_CLKN": {
+      "ball": "B29",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_DSI_TX_CLKN",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B12": {
+      "ball": "2B12",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C12": {
+      "ball": "2C12",
+      "domain": "MIPI_DPHY_DST_TX",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_CSI_RX0_D0P": {
+      "ball": "AM25",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D0P",
+      "functions": {
+        "f0": "LVDS_RX0_D0P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D0N": {
+      "ball": "AM26",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D0N",
+      "functions": {
+        "f0": "LVDS_RX0_D0N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D1P": {
+      "ball": "AL24",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D1P",
+      "functions": {
+        "f0": "LVDS_RX0_D1P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D1N": {
+      "ball": "AL25",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D1N",
+      "functions": {
+        "f0": "LVDS_RX0_D1N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D2P": {
+      "ball": "AM19",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D2P",
+      "functions": {
+        "f0": "LVDS_RX0_D2P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D2N": {
+      "ball": "AM20",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D2N",
+      "functions": {
+        "f0": "LVDS_RX0_D2N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D3P": {
+      "ball": "AL20",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D3P",
+      "functions": {
+        "f0": "LVDS_RX0_D3P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_D3N": {
+      "ball": "AL21",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_D3N",
+      "functions": {
+        "f0": "LVDS_RX0_D3N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_CLK0P": {
+      "ball": "AM23",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_CLK0P",
+      "functions": {
+        "f0": "LVDS_RX0_CLK0P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_CLK0N": {
+      "ball": "AL23",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_CLK0N",
+      "functions": {
+        "f0": "LVDS_RX0_CLK0N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_CLK1P": {
+      "ball": "AL22",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_CLK1P",
+      "functions": {
+        "f0": "LVDS_RX0_CLK1P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX0_CLK1N": {
+      "ball": "AM22",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX0_CLK1N",
+      "functions": {
+        "f0": "LVDS_RX0_CLK1N"
+      },
+      "default_function": "f0"
+    },
+    "__2L12": {
+      "ball": "2L12",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L11": {
+      "ball": "2L11",
+      "domain": "MIPI_DPHY_CST_RX0",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "MIPI_DPHY_CSI_RX1_D0P": {
+      "ball": "AJ32",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D0P",
+      "functions": {
+        "f0": "LVDS_RX1_D0P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D0N": {
+      "ball": "AJ31",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D0N",
+      "functions": {
+        "f0": "LVDS_RX1_D0N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D1P": {
+      "ball": "AL32",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D1P",
+      "functions": {
+        "f0": "LVDS_RX1_D1P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D1N": {
+      "ball": "AK32",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D1N",
+      "functions": {
+        "f0": "LVDS_RX1_D1N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D2P": {
+      "ball": "AL27",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D2P",
+      "functions": {
+        "f0": "LVDS_RX1_D2P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D2N": {
+      "ball": "AL28",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D2N",
+      "functions": {
+        "f0": "LVDS_RX1_D2N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D3P": {
+      "ball": "AM28",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D3P",
+      "functions": {
+        "f0": "LVDS_RX1_D3P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_D3N": {
+      "ball": "AM29",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_D3N",
+      "functions": {
+        "f0": "LVDS_RX1_D3N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_CLK0P": {
+      "ball": "AL31",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_CLK0P",
+      "functions": {
+        "f0": "LVDS_RX1_CLK0P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_CLK0N": {
+      "ball": "AM31",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_CLK0N",
+      "functions": {
+        "f0": "LVDS_RX1_CLK0N"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_CLK1P": {
+      "ball": "AL29",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_CLK1P",
+      "functions": {
+        "f0": "LVDS_RX1_CLK1P"
+      },
+      "default_function": "f0"
+    },
+    "MIPI_DPHY_CSI_RX1_CLK1N": {
+      "ball": "AL30",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "MIPI_DPHY_CSI_RX1_CLK1N",
+      "functions": {
+        "f0": "LVDS_RX1_CLK1N"
+      },
+      "default_function": "f0"
+    },
+    "__2K12": {
+      "ball": "2K12",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K11": {
+      "ball": "2K11",
+      "domain": "MIPI_DPHY_CST_RX1",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "FEPHY_RXN": {
+      "ball": "A26",
+      "domain": "FEPHY",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "FEPHY_RXN",
+      "functions": {},
+      "default_function": null
+    },
+    "FEPHY_RXP": {
+      "ball": "A25",
+      "domain": "FEPHY",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "FEPHY_RXP",
+      "functions": {},
+      "default_function": null
+    },
+    "FEPHY_TXN": {
+      "ball": "B25",
+      "domain": "FEPHY",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "FEPHY_TXN",
+      "functions": {},
+      "default_function": null
+    },
+    "FEPHY_TXP": {
+      "ball": "B24",
+      "domain": "FEPHY",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "FEPHY_TXP",
+      "functions": {},
+      "default_function": null
+    },
+    "FEPHY_REXT": {
+      "ball": "2A11",
+      "domain": "FEPHY",
+      "io_type": "A",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "FEPHY_REXT",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A12": {
+      "ball": "2A12",
+      "domain": "FEPHY",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C11": {
+      "ball": "2C11",
+      "domain": "FEPHY",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B10": {
+      "ball": "2B10",
+      "domain": "FEPHY",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "ACODEC_MIC0P": {
+      "ball": "AM16",
+      "domain": "AUDIO ADC",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "ACODEC_MIC0P",
+      "functions": {},
+      "default_function": null
+    },
+    "ACODEC_MIC0N": {
+      "ball": "AM17",
+      "domain": "CODEC",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "ACODEC_MIC0N",
+      "functions": {},
+      "default_function": null
+    },
+    "ACODEC_MIC1P": {
+      "ball": "AL17",
+      "domain": "CODEC",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "ACODEC_MIC1P",
+      "functions": {},
+      "default_function": null
+    },
+    "ACODEC_MIC1N": {
+      "ball": "AL18",
+      "domain": "CODEC",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "ACODEC_MIC1N",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M6": {
+      "ball": "2M6",
+      "domain": "CODEC",
+      "io_type": "A",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M7": {
+      "ball": "2M7",
+      "domain": "CODEC",
+      "io_type": "A",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L6": {
+      "ball": "2L6",
+      "domain": "CODEC",
+      "io_type": "A",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N8": {
+      "ball": "2N8",
+      "domain": "CODEC",
+      "io_type": "A",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N7": {
+      "ball": "2N7",
+      "domain": "CODEC",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_DP": {
+      "ball": "AL2",
+      "domain": "USB2.0",
+      "io_type": "AI/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_DP",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_DM": {
+      "ball": "AM2",
+      "domain": "USB",
+      "io_type": "AI/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_DM",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_VBUSDET": {
+      "ball": "1AA2",
+      "domain": "USB",
+      "io_type": "I",
+      "pull": "down",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_VBUSDET",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_ID": {
+      "ball": "1AB2",
+      "domain": "USB",
+      "io_type": "I",
+      "pull": "up",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_ID",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_HOST_DP": {
+      "ball": "AL4",
+      "domain": "USB",
+      "io_type": "AI/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_HOST_DP",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_HOST_DM": {
+      "ball": "AL3",
+      "domain": "USB",
+      "io_type": "AI/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_HOST_DM",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M1": {
+      "ball": "2M1",
+      "domain": "USB",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L2": {
+      "ball": "2L2",
+      "domain": "USB",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K2": {
+      "ball": "2K2",
+      "domain": "USB",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_SSTXP": {
+      "ball": "AM4",
+      "domain": "USB3.0",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_SSTXP",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_SSTXN": {
+      "ball": "AM5",
+      "domain": "USB",
+      "io_type": "AO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_SSTXN",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_SSRXP": {
+      "ball": "AL6",
+      "domain": "USB",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_SSRXP",
+      "functions": {},
+      "default_function": null
+    },
+    "USB_DRD_SSRXN": {
+      "ball": "AL7",
+      "domain": "USB",
+      "io_type": "AI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "USB_DRD_SSRXN",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M2": {
+      "ball": "2M2",
+      "domain": "USB",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L3": {
+      "ball": "2L3",
+      "domain": "USB",
+      "io_type": "API",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "DDR3_DQ0": {
+      "ball": "R1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ0",
+      "functions": {
+        "f0": "DDR4_DQL0_A",
+        "f1": "LPDDR3_DQ2",
+        "f2": "LPDDR4_DQ8_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ1": {
+      "ball": "1M3",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ1",
+      "functions": {
+        "f0": "DDR4_DQL1_A",
+        "f1": "LPDDR3_DQ6",
+        "f2": "LPDDR4_DQ9_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ2": {
+      "ball": "R2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ2",
+      "functions": {
+        "f0": "DDR4_DQL2_A",
+        "f1": "LPDDR3_DQ4",
+        "f2": "LPDDR4_DQ10_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ3": {
+      "ball": "1H1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ3",
+      "functions": {
+        "f0": "DDR4_DQL3_A",
+        "f1": "LPDDR3_DQ0",
+        "f2": "LPDDR4_DQ11_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ4": {
+      "ball": "T2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ4",
+      "functions": {
+        "f0": "DDR4_DQL4_A",
+        "f1": "LPDDR3_DQ3",
+        "f2": "LPDDR4_DQ12_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ5": {
+      "ball": "T1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ5",
+      "functions": {
+        "f0": "DDR4_DQL5_A",
+        "f1": "LPDDR3_DQ7",
+        "f2": "LPDDR4_DQ13_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ6": {
+      "ball": "1H3",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ6",
+      "functions": {
+        "f0": "DDR4_DQL6_A",
+        "f1": "LPDDR3_DQ5",
+        "f2": "LPDDR4_DQ14_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ7": {
+      "ball": "1P1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ7",
+      "functions": {
+        "f0": "DDR4_DQL7_A",
+        "f1": "LPDDR3_DQ1",
+        "f2": "LPDDR4_DQ15_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DM0": {
+      "ball": "1M1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DM0",
+      "functions": {
+        "f0": "DDR4_DML_A",
+        "f1": "LPDDR3_DM0",
+        "f2": "LPDDR4_DM1_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS0P": {
+      "ball": "1K1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS0P",
+      "functions": {
+        "f0": "DDR4_DQSL_P_A",
+        "f1": "LPDDR3_DQS0P",
+        "f2": "LPDDR4_DQS1P_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS0N": {
+      "ball": "1K2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS0N",
+      "functions": {
+        "f0": "DDR4_DQSL_N_A",
+        "f1": "LPDDR3_DQS0N",
+        "f2": "LPDDR4_DQS1N_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ8": {
+      "ball": "M2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ8",
+      "functions": {
+        "f0": "DDR4_DQU0_A",
+        "f1": "LPDDR3_DQ10",
+        "f2": "LPDDR4_DQ0_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ9": {
+      "ball": "M1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ9",
+      "functions": {
+        "f0": "DDR4_DQU1_A",
+        "f1": "LPDDR3_DQ11",
+        "f2": "LPDDR4_DQ1_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ10": {
+      "ball": "N1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ10",
+      "functions": {
+        "f0": "DDR4_DQU2_A",
+        "f1": "LPDDR3_DQ8",
+        "f2": "LPDDR4_DQ2_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ11": {
+      "ball": "N2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ11",
+      "functions": {
+        "f0": "DDR4_DQU3_A",
+        "f1": "LPDDR3_DQ9",
+        "f2": "LPDDR4_DQ3_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ12": {
+      "ball": "H2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ12",
+      "functions": {
+        "f0": "DDR4_DQU4_A",
+        "f1": "LPDDR3_DQ12",
+        "f2": "LPDDR4_DQ4_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ13": {
+      "ball": "J2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ13",
+      "functions": {
+        "f0": "DDR4_DQU5_A",
+        "f1": "LPDDR3_DQ13",
+        "f2": "LPDDR4_DQ5_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ14": {
+      "ball": "J1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ14",
+      "functions": {
+        "f0": "DDR4_DQU6_A",
+        "f1": "LPDDR3_DQ14",
+        "f2": "LPDDR4_DQ6_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ15": {
+      "ball": "K1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ15",
+      "functions": {
+        "f0": "DDR4_DQU7_A",
+        "f1": "LPDDR3_DQ15",
+        "f2": "LPDDR4_DQ7_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DM1": {
+      "ball": "K2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DM1",
+      "functions": {
+        "f0": "DDR4_DMU_A",
+        "f1": "LPDDR3_DM1",
+        "f2": "LPDDR4_DM0_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS1P": {
+      "ball": "1F1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS1P",
+      "functions": {
+        "f0": "DDR4_DQSU_P_A",
+        "f1": "LPDDR3_DQS1P",
+        "f2": "LPDDR4_DQS0P_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS1N": {
+      "ball": "1F2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS1N",
+      "functions": {
+        "f0": "DDR4_DQSU_N_A",
+        "f1": "LPDDR3_DQS1N",
+        "f2": "LPDDR4_DQS0N_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ16": {
+      "ball": "Y2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ16",
+      "functions": {
+        "f0": "DDR4_DQL0_B",
+        "f1": "LPDDR3_DQ19",
+        "f2": "LPDDR4_DQ0_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ17": {
+      "ball": "W1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ17",
+      "functions": {
+        "f0": "DDR4_DQL1_B",
+        "f1": "LPDDR3_DQ18",
+        "f2": "LPDDR4_DQ1_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ18": {
+      "ball": "V1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ18",
+      "functions": {
+        "f0": "DDR4_DQL2_B",
+        "f1": "LPDDR3_DQ23",
+        "f2": "LPDDR4_DQ2_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ19": {
+      "ball": "V2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ19",
+      "functions": {
+        "f0": "DDR4_DQL3_B",
+        "f1": "LPDDR3_DQ22",
+        "f2": "LPDDR4_DQ3_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ20": {
+      "ball": "AE1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ20",
+      "functions": {
+        "f0": "DDR4_DQL4_B",
+        "f1": "LPDDR3_DQ21",
+        "f2": "LPDDR4_DQ4_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ21": {
+      "ball": "AD1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ21",
+      "functions": {
+        "f0": "DDR4_DQL5_B",
+        "f1": "LPDDR3_DQ16",
+        "f2": "LPDDR4_DQ5_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ22": {
+      "ball": "AD2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ22",
+      "functions": {
+        "f0": "DDR4_DQL6_B",
+        "f1": "LPDDR3_DQ17",
+        "f2": "LPDDR4_DQ6_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ23": {
+      "ball": "AC2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ23",
+      "functions": {
+        "f0": "DDR4_DQL7_B",
+        "f1": "LPDDR3_DQ20",
+        "f2": "LPDDR4_DQ7_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DM2": {
+      "ball": "W2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DM2",
+      "functions": {
+        "f0": "DDR4_DML_B",
+        "f1": "LPDDR3_DM2",
+        "f2": "LPDDR4_DM0_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS2P": {
+      "ball": "AB1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS2P",
+      "functions": {
+        "f0": "DDR4_DQSL_P_B",
+        "f1": "LPDDR3_DQS2P",
+        "f2": "LPDDR4_DQS0P_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS2N": {
+      "ball": "AA1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS2N",
+      "functions": {
+        "f0": "DDR4_DQSL_N_B",
+        "f1": "LPDDR3_DQS2N",
+        "f2": "LPDDR4_DQS0N_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ24": {
+      "ball": "C1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ24",
+      "functions": {
+        "f0": "DDR4_DQU0_B",
+        "f1": "LPDDR3_DQ30",
+        "f2": "LPDDR4_DQ8_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ25": {
+      "ball": "B1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ25",
+      "functions": {
+        "f0": "DDR4_DQU1_B",
+        "f1": "LPDDR3_DQ31",
+        "f2": "LPDDR4_DQ9_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ26": {
+      "ball": "A2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ26",
+      "functions": {
+        "f0": "DDR4_DQU2_B",
+        "f1": "LPDDR3_DQ28",
+        "f2": "LPDDR4_DQ10_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ27": {
+      "ball": "B2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ27",
+      "functions": {
+        "f0": "DDR4_DQU3_B",
+        "f1": "LPDDR3_DQ29",
+        "f2": "LPDDR4_DQ11_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ28": {
+      "ball": "G1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ28",
+      "functions": {
+        "f0": "DDR4_DQU4_B",
+        "f1": "LPDDR3_DQ24",
+        "f2": "LPDDR4_DQ12_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ29": {
+      "ball": "F1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ29",
+      "functions": {
+        "f0": "DDR4_DQU5_B",
+        "f1": "LPDDR3_DQ25",
+        "f2": "LPDDR4_DQ13_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ30": {
+      "ball": "F2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ30",
+      "functions": {
+        "f0": "DDR4_DQU6_B",
+        "f1": "LPDDR3_DQ26",
+        "f2": "LPDDR4_DQ14_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQ31": {
+      "ball": "E2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQ31",
+      "functions": {
+        "f0": "DDR4_DQU7_B",
+        "f1": "LPDDR3_DQ27",
+        "f2": "LPDDR4_DQ15_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DM3": {
+      "ball": "D2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DM3",
+      "functions": {
+        "f0": "DDR4_DMU_B",
+        "f1": "LPDDR3_DM3",
+        "f2": "LPDDR4_DM1_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS3P": {
+      "ball": "1D1",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS3P",
+      "functions": {
+        "f0": "DDR4_DQSU_P_B",
+        "f1": "LPDDR3_DQS3P",
+        "f2": "LPDDR4_DQS1P_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_DQS3N": {
+      "ball": "1D2",
+      "domain": "DDR PHY",
+      "io_type": "I/O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_DQS3N",
+      "functions": {
+        "f0": "DDR4_DQSU_N_B",
+        "f1": "LPDDR3_DQS3N",
+        "f2": "LPDDR4_DQS1N_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A0": {
+      "ball": "A13",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A0",
+      "functions": {
+        "f0": "DDR4_ODT1",
+        "f1": "LPDDR3_A0",
+        "f2": "LPDDR4_ODT1_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A1": {
+      "ball": "A10",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A1",
+      "functions": {
+        "f0": "DDR4_A8",
+        "f1": "LPDDR3_A1",
+        "f2": "LPDDR4_CKE0_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A2": {
+      "ball": "1C12",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A2",
+      "functions": {
+        "f0": "DDR4_BG1",
+        "f1": "LPDDR3_A2",
+        "f2": "LPDDR4_ODT1_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A3": {
+      "ball": "B13",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A3",
+      "functions": {
+        "f0": "DDR4_A0",
+        "f1": "LPDDR3_A3",
+        "f2": "LPDDR4_CKE1_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A4": {
+      "ball": "1A8",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A4",
+      "functions": {
+        "f0": "DDR4_A7",
+        "f1": "LPDDR3_A4",
+        "f2": "LPDDR4_ODT0_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A5": {
+      "ball": "A11",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A5",
+      "functions": {
+        "f0": "DDR4_A9",
+        "f1": "LPDDR3_A5",
+        "f2": "LPDDR4_A5_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A6": {
+      "ball": "1B10",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A6",
+      "functions": {
+        "f0": "DDR4_A4",
+        "f1": "LPDDR3_A6",
+        "f2": "LPDDR4_CLKP_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A7": {
+      "ball": "1A12",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A7",
+      "functions": {
+        "f0": "DDR4_A11",
+        "f1": "LPDDR3_A7",
+        "f2": "LPDDR4_A2_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A8": {
+      "ball": "1C10",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A8",
+      "functions": {
+        "f0": "DDR4_A10",
+        "f1": "LPDDR3_A8",
+        "f2": "LPDDR4_CLKN_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A9": {
+      "ball": "1B12",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A9",
+      "functions": {
+        "f0": "DDR4_A2",
+        "f1": "LPDDR3_A9",
+        "f2": "LPDDR4_A4_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A10": {
+      "ball": "1A4",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A10",
+      "functions": {
+        "f0": "DDR4_A15_CASN",
+        "f2": "LPDDR4_A0_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A11": {
+      "ball": "B7",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A11",
+      "functions": {
+        "f0": "DDR4_A16_RASN",
+        "f2": "LPDDR4_CSN0_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A12": {
+      "ball": "A8",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A12",
+      "functions": {
+        "f0": "DDR4_A5",
+        "f2": "LPDDR4_ODT0_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A13": {
+      "ball": "B14",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A13",
+      "functions": {
+        "f0": "DDR4_A13",
+        "f2": "LPDDR4_A3_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A14": {
+      "ball": "A14",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A14",
+      "functions": {
+        "f0": "DDR4_A14_WEN",
+        "f2": "LPDDR4_CSN1_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_A15": {
+      "ball": "1A6",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_A15",
+      "functions": {
+        "f0": "DDR4_A3",
+        "f2": "LPDDR4_A5_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_BA0": {
+      "ball": "B10",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_BA0",
+      "functions": {
+        "f0": "DDR4_CSN1"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_BA1": {
+      "ball": "1C8",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_BA1",
+      "functions": {
+        "f0": "DDR4_A1",
+        "f2": "LPDDR4_CKE0_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_BA2": {
+      "ball": "B8",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_BA2",
+      "functions": {
+        "f0": "DDR4_A6",
+        "f2": "LPDDR4_A0_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_RASN": {
+      "ball": "1C4",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_RASN",
+      "functions": {
+        "f0": "DDR4_A12",
+        "f2": "LPDDR4_A1_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_CASN": {
+      "ball": "B4",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_CASN",
+      "functions": {
+        "f0": "DDR4_CKE",
+        "f2": "LPDDR4_A1_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_WEN": {
+      "ball": "1C6",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_WEN",
+      "functions": {
+        "f0": "DDR4_BA1",
+        "f2": "LPDDR4_CKE1_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_CLKP": {
+      "ball": "1B2",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_CLKP",
+      "functions": {
+        "f0": "DDR4_CLKP",
+        "f1": "LPDDR3_CLKP",
+        "f2": "LPDDR4_CLKP_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_CLKN": {
+      "ball": "1A2",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_CLKN",
+      "functions": {
+        "f0": "DDR4_CLKN",
+        "f1": "LPDDR3_CLKN",
+        "f2": "LPDDR4_CLKN_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_CKE": {
+      "ball": "A5",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_CKE",
+      "functions": {
+        "f0": "DDR4_ACTN",
+        "f1": "LPDDR3_CKE",
+        "f2": "LPDDR4_A3_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_ODT0": {
+      "ball": "A4",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_ODT0",
+      "functions": {
+        "f0": "DDR4_CSN0",
+        "f1": "LPDDR3_ODT0",
+        "f2": "LPDDR4_A2_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_ODT1": {
+      "ball": "A7",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_ODT1",
+      "functions": {
+        "f0": "DDR4_BG0",
+        "f1": "LPDDR3_ODT1",
+        "f2": "LPDDR4_CSN1_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_CSN0": {
+      "ball": "B5",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_CSN0",
+      "functions": {
+        "f0": "DDR4_ODT0",
+        "f1": "LPDDR3_CSN0",
+        "f2": "LPDDR4_A4_B"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_CSN1": {
+      "ball": "B11",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_CSN1",
+      "functions": {
+        "f0": "DDR4_BA0",
+        "f1": "LPDDR3_CSN1",
+        "f2": "LPDDR4_CSN0_A"
+      },
+      "default_function": "f0"
+    },
+    "DDR3_RESETN": {
+      "ball": "2A1",
+      "domain": "DDR PHY",
+      "io_type": "O",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "DDR3_RESETN",
+      "functions": {
+        "f0": "DDR4_RESETN",
+        "f2": "LPDDR4_RESETN"
+      },
+      "default_function": "f0"
+    },
+    "__2A2": {
+      "ball": "2A2",
+      "domain": "DDR PHY",
+      "io_type": "A",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J1": {
+      "ball": "2J1",
+      "domain": "DDR PHY",
+      "io_type": "APO",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C4": {
+      "ball": "2C4",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C5": {
+      "ball": "2C5",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D3": {
+      "ball": "2D3",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E3": {
+      "ball": "2E3",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F3": {
+      "ball": "2F3",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E4": {
+      "ball": "2E4",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F4": {
+      "ball": "2F4",
+      "domain": "DDR PHY",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J9": {
+      "ball": "2J9",
+      "domain": "CPU",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H6": {
+      "ball": "2H6",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H7": {
+      "ball": "2H7",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H8": {
+      "ball": "2H8",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J6": {
+      "ball": "2J6",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J7": {
+      "ball": "2J7",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J8": {
+      "ball": "2J8",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E5": {
+      "ball": "2E5",
+      "domain": "LOGIC",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F5": {
+      "ball": "2F5",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G5": {
+      "ball": "2G5",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E10": {
+      "ball": "2E10",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F10": {
+      "ball": "2F10",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G10": {
+      "ball": "2G10",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H4": {
+      "ball": "2H4",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D6": {
+      "ball": "2D6",
+      "domain": "NPU",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D7": {
+      "ball": "2D7",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D8": {
+      "ball": "2D8",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E6": {
+      "ball": "2E6",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E7": {
+      "ball": "2E7",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E8": {
+      "ball": "2E8",
+      "domain": "POWER",
+      "io_type": "PI",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__A1": {
+      "ball": "A1",
+      "domain": "VSS",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__A19": {
+      "ball": "A19",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B3": {
+      "ball": "B3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B6": {
+      "ball": "B6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B9": {
+      "ball": "B9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B12": {
+      "ball": "B12",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B15": {
+      "ball": "B15",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B23": {
+      "ball": "B23",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__C2": {
+      "ball": "C2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__D1": {
+      "ball": "D1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__G2": {
+      "ball": "G2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__H31": {
+      "ball": "H31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__L2": {
+      "ball": "L2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__M31": {
+      "ball": "M31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__P2": {
+      "ball": "P2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__T31": {
+      "ball": "T31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__U2": {
+      "ball": "U2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__Y31": {
+      "ball": "Y31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AA2": {
+      "ball": "AA2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AB2": {
+      "ball": "AB2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AD31": {
+      "ball": "AD31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AE2": {
+      "ball": "AE2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AH31": {
+      "ball": "AH31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AK31": {
+      "ball": "AK31",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL5": {
+      "ball": "AL5",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL8": {
+      "ball": "AL8",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL19": {
+      "ball": "AL19",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL26": {
+      "ball": "AL26",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AM1": {
+      "ball": "AM1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AM14": {
+      "ball": "AM14",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AM32": {
+      "ball": "AM32",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1A10": {
+      "ball": "1A10",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1B4": {
+      "ball": "1B4",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1B6": {
+      "ball": "1B6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1B8": {
+      "ball": "1B8",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1C2": {
+      "ball": "1C2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1C14": {
+      "ball": "1C14",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1D3": {
+      "ball": "1D3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1F3": {
+      "ball": "1F3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1F21": {
+      "ball": "1F21",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1H2": {
+      "ball": "1H2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1K3": {
+      "ball": "1K3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1K22": {
+      "ball": "1K22",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1M2": {
+      "ball": "1M2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1P2": {
+      "ball": "1P2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1V23": {
+      "ball": "1V23",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1Y1": {
+      "ball": "1Y1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1Y2": {
+      "ball": "1Y2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1Y3": {
+      "ball": "1Y3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1Y22": {
+      "ball": "1Y22",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A3": {
+      "ball": "2A3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A4": {
+      "ball": "2A4",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A5": {
+      "ball": "2A5",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A6": {
+      "ball": "2A6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A7": {
+      "ball": "2A7",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A8": {
+      "ball": "2A8",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A9": {
+      "ball": "2A9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B1": {
+      "ball": "2B1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B2": {
+      "ball": "2B2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B3": {
+      "ball": "2B3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B4": {
+      "ball": "2B4",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B5": {
+      "ball": "2B5",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B6": {
+      "ball": "2B6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B7": {
+      "ball": "2B7",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C1": {
+      "ball": "2C1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C2": {
+      "ball": "2C2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C6": {
+      "ball": "2C6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C7": {
+      "ball": "2C7",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C8": {
+      "ball": "2C8",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C9": {
+      "ball": "2C9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2C10": {
+      "ball": "2C10",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D1": {
+      "ball": "2D1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D2": {
+      "ball": "2D2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D4": {
+      "ball": "2D4",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D5": {
+      "ball": "2D5",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D9": {
+      "ball": "2D9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D10": {
+      "ball": "2D10",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D11": {
+      "ball": "2D11",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2D12": {
+      "ball": "2D12",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E1": {
+      "ball": "2E1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E2": {
+      "ball": "2E2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E9": {
+      "ball": "2E9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2E11": {
+      "ball": "2E11",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F1": {
+      "ball": "2F1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F2": {
+      "ball": "2F2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F6": {
+      "ball": "2F6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F7": {
+      "ball": "2F7",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F8": {
+      "ball": "2F8",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F9": {
+      "ball": "2F9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F11": {
+      "ball": "2F11",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2F13": {
+      "ball": "2F13",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G1": {
+      "ball": "2G1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G2": {
+      "ball": "2G2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G3": {
+      "ball": "2G3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G4": {
+      "ball": "2G4",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G6": {
+      "ball": "2G6",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G7": {
+      "ball": "2G7",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G8": {
+      "ball": "2G8",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G9": {
+      "ball": "2G9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G11": {
+      "ball": "2G11",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2G13": {
+      "ball": "2G13",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H1": {
+      "ball": "2H1",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H2": {
+      "ball": "2H2",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H3": {
+      "ball": "2H3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H5": {
+      "ball": "2H5",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H9": {
+      "ball": "2H9",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H10": {
+      "ball": "2H10",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H11": {
+      "ball": "2H11",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2H13": {
+      "ball": "2H13",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J3": {
+      "ball": "2J3",
+      "domain": "VSS1",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J5": {
+      "ball": "2J5",
+      "domain": "VSS",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J10": {
+      "ball": "2J10",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J11": {
+      "ball": "2J11",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2J13": {
+      "ball": "2J13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K1": {
+      "ball": "2K1",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K3": {
+      "ball": "2K3",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K6": {
+      "ball": "2K6",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K7": {
+      "ball": "2K7",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K8": {
+      "ball": "2K8",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K9": {
+      "ball": "2K9",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K10": {
+      "ball": "2K10",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2K13": {
+      "ball": "2K13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L1": {
+      "ball": "2L1",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L8": {
+      "ball": "2L8",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L13": {
+      "ball": "2L13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M4": {
+      "ball": "2M4",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M8": {
+      "ball": "2M8",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M9": {
+      "ball": "2M9",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M10": {
+      "ball": "2M10",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M11": {
+      "ball": "2M11",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M12": {
+      "ball": "2M12",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2M13": {
+      "ball": "2M13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N1": {
+      "ball": "2N1",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N2": {
+      "ball": "2N2",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N3": {
+      "ball": "2N3",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N4": {
+      "ball": "2N4",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N5": {
+      "ball": "2N5",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N6": {
+      "ball": "2N6",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N9": {
+      "ball": "2N9",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N10": {
+      "ball": "2N10",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N11": {
+      "ball": "2N11",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N12": {
+      "ball": "2N12",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2N13": {
+      "ball": "2N13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__A32": {
+      "ball": "A32",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__B26": {
+      "ball": "B26",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__C31": {
+      "ball": "C31",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__1C20": {
+      "ball": "1C20",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2A13": {
+      "ball": "2A13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2B13": {
+      "ball": "2B13",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__AL16": {
+      "ball": "AL16",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    },
+    "__2L7": {
+      "ball": "2L7",
+      "domain": "VSS2",
+      "io_type": "G",
+      "pull": "",
+      "schmitt": false,
+      "interruptable": false,
+      "gpio": "",
+      "functions": {},
+      "default_function": null
+    }
+  }
+}
